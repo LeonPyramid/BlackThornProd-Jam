@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - planet
+  - Info
+  - Buildable
   layers:
   - Default
   - TransparentFX
@@ -39,6 +41,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2547549755
+    locked: 0
+  - name: Halo
+    uniqueID: 845757313
+    locked: 0
+  - name: Buildings
+    uniqueID: 1562098861
+    locked: 0
+  - name: piple
+    uniqueID: 551364901
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
