@@ -9,10 +9,15 @@ public class CaracterMove : MonoBehaviour
     private Vector3 direction;
     private float angle;
     private bool contact;
+    private float scale;
     public Vector3 pdir  { get { return direction; } }
+    private bool contactVerif;
+    private float timer;
+    public float jumpTime;
     // Start is called before the first frame update
     void Start()
     {
+        scale = transform.localScale.y;
         rigidbodyp = this.GetComponent<Rigidbody2D>();
         planet = GameObject.FindGameObjectWithTag("planet");
     }
@@ -20,6 +25,7 @@ public class CaracterMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        contactVerif = contact;
         direction = this.transform.position - planet.transform.position;
         direction = direction.normalized;
         angle = direction.y > 0 ? Mathf.Acos((float)direction.x) * 180f / 3.14159265359f -90f: - (Mathf.Acos((float)direction.x) * 180f / 3.14159265359f) + 360f-90f;
@@ -33,6 +39,19 @@ public class CaracterMove : MonoBehaviour
         {
             rigidbodyp.AddForce(new Vector2(10000f * (direction.x + direction.y*0.5f), 10000f * (direction.y - direction.x*0.5f)));
             contact = false;
+        }
+        if (!contact&&contact!=contactVerif)
+        {
+            timer = jumpTime;
+        }
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+            transform.localScale = new Vector3(transform.localScale.x, scale + 0.2f, transform.localScale.z);
+        }
+        else
+        {
+            transform.localScale = new Vector3(transform.localScale.x, scale , transform.localScale.z);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

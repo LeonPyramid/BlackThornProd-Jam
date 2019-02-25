@@ -9,11 +9,16 @@ public class SetPosAndRot: MonoBehaviour
     private float angle;
     private float planetHeigh;
     private float totalHeigh;
+    public float persoHeigh;
     // Start is called before the first frame update
     void Start()
     {
+        if (persoHeigh == 0)
+        {
+            persoHeigh = this.GetComponent<BoxCollider2D>().size.x / 2f;
+        }
         planetHeigh = GameObject.FindGameObjectWithTag("Info").GetComponent<GlobalVar>().plantetHeigh;
-        totalHeigh = planetHeigh + this.GetComponent<BoxCollider2D>().size.x / 2f;
+        totalHeigh = planetHeigh + persoHeigh;
         planet = GameObject.FindGameObjectWithTag("planet");
         direction = this.transform.position - planet.transform.position;
         direction = direction.normalized;

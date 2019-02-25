@@ -8,7 +8,7 @@ public class BuildInfo : MonoBehaviour
     public int ecologie;
     public int argent;
     public int id;
-    private GameObject choiceMenu;
+    public GameObject choiceMenu;
     void Start()
     {
         choiceMenu = GameObject.FindGameObjectWithTag("ChoiceMenu");

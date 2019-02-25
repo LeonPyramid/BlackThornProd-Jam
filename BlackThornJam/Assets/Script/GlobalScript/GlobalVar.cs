@@ -12,11 +12,15 @@ public class GlobalVar : MonoBehaviour
     private int social;
     private int ecologie;
     private int argent;
+    public int socialg { get { return social; } }
+    public int ecologieg { get { return ecologie; } }
+    public int argentg { get { return argent; } }
     private GameObject[] buildable;
     private GameObject choiceMenu;
     public bool[] choiceMenuActivation;
     private GameObject[] choiceMenuBoutton;
     private int count = 1;
+    public bool win;
     void Start()
     {
         buildable = GameObject.FindGameObjectsWithTag("Buildable");
@@ -39,6 +43,14 @@ public class GlobalVar : MonoBehaviour
             social += build.GetComponent<BuildInfo>().social;
             argent += build.GetComponent<BuildInfo>().argent;
             ecologie += build.GetComponent<BuildInfo>().ecologie;
+        }
+        if (social > 2 && argent > 2 && ecologie > 2)
+        {
+            win = true;
+        }
+        else
+        {
+            win = false;
         }
     }
 }
