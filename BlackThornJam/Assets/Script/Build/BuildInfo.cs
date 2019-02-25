@@ -15,7 +15,11 @@ public class BuildInfo : MonoBehaviour
     }
     public void OnMouseDown()
     {
-        choiceMenu.SetActive(true);
-        choiceMenu.GetComponent<BuildNumber>().build = this.gameObject;
+        if (!choiceMenu.active)
+        {
+            choiceMenu.SetActive(true);
+            choiceMenu.GetComponent<BuildNumber>().build = this.gameObject;
+        }
+       
     }
 }

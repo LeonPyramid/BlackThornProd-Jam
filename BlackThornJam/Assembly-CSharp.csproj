@@ -74,6 +74,9 @@
     <Compile Include="Assets\Script\GlobalScript\GlobalVar.cs" />
     <Compile Include="Assets\Script\GlobalScript\ObjetList.cs" />
     <Compile Include="Assets\Script\GotoNavmap.cs" />
+    <Compile Include="Assets\Script\NavMap\CameraOnNavMap.cs" />
+    <Compile Include="Assets\Script\NavMap\LoadPlanet.cs" />
+    <Compile Include="Assets\Script\NavMap\MoveCamera.cs" />
     <Compile Include="Assets\Script\Player\CaracterMove.cs" />
     <Compile Include="Assets\Script\SetPosAndRot.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

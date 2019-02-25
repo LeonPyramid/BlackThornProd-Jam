@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3dd5455dbb58bf4c9ea55ffa0ee5394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  persoHeigh: 0
+  persoHeigh: 8
 --- !u!114 &8015938670435814738
 MonoBehaviour:
   m_ObjectHideFlags: 0

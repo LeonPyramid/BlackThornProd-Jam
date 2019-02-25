@@ -9,20 +9,28 @@ public class DialogTrigger : MonoBehaviour
     private Dialog randDialogList;
     public Dialog randDialog;
     private int random;
-
+    private GameObject menu;
+    private void Start()
+    {
+        menu = FindObjectOfType<BuildNumber>().gameObject;
+    }
     public void OnMouseDown()
     {
-        if (dialog.dialog.Length == 0)
+        if (!menu.active)
         {
-            randDialogList = FindObjectOfType<DialogList>().DialogChoice();
-            random = Random.Range(0, randDialogList.dialog.Length);
-            randDialog.dialog[0] = randDialogList.dialog[random];
-            TriggerDialog(randDialog);
+            if (dialog.dialog.Length == 0)
+            {
+                randDialogList = FindObjectOfType<DialogList>().DialogChoice();
+                random = Random.Range(0, randDialogList.dialog.Length);
+                randDialog.dialog[0] = randDialogList.dialog[random];
+                TriggerDialog(randDialog);
+            }
+            else
+            {
+                TriggerDialog(dialog);
+            }
         }
-        else
-        {
-            TriggerDialog(dialog);
-        }
+        
 
     }
     public void TriggerDialog(Dialog dialog)
