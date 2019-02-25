@@ -61,13 +61,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ActivateHalo.cs" />
-    <Compile Include="Assets\BuildInfo.cs" />
-    <Compile Include="Assets\CaracterMove.cs" />
-    <Compile Include="Assets\FollowPlayer.cs" />
-    <Compile Include="Assets\GlobalVar.cs" />
-    <Compile Include="Assets\GotoNavmap.cs" />
-    <Compile Include="Assets\SetPosAndRot.cs" />
+    <Compile Include="Assets\BuildNumber.cs" />
+    <Compile Include="Assets\ChangeBuild.cs" />
+    <Compile Include="Assets\Script\Build\ActivateHalo.cs" />
+    <Compile Include="Assets\Script\Build\BuildChangement.cs" />
+    <Compile Include="Assets\Script\Build\BuildInfo.cs" />
+    <Compile Include="Assets\Script\Build\SetPosAndRot.cs" />
+    <Compile Include="Assets\Script\FollowPlayer.cs" />
+    <Compile Include="Assets\Script\GlobalScript\GlobalVar.cs" />
+    <Compile Include="Assets\Script\GlobalScript\ObjetList.cs" />
+    <Compile Include="Assets\Script\GotoNavmap.cs" />
+    <Compile Include="Assets\Script\Player\CaracterMove.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJam/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

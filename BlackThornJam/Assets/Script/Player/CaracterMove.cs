@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CaracterMove : MonoBehaviour
 {
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D rigidbodyp;
     private GameObject planet;
     private Vector3 direction;
     private float angle;
@@ -13,7 +13,7 @@ public class CaracterMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = this.GetComponent<Rigidbody2D>();
+        rigidbodyp = this.GetComponent<Rigidbody2D>();
         planet = GameObject.FindGameObjectWithTag("planet");
     }
 
@@ -26,12 +26,12 @@ public class CaracterMove : MonoBehaviour
         transform.eulerAngles = new Vector3(0, 0, angle);
         if (Input.GetKey(KeyCode.LeftArrow)&&contact)
         {
-            rigidbody.AddForce(new Vector2(10000f*(direction.x-direction.y*0.5f),10000f*(direction.y+direction.x*0.5f)));
+            rigidbodyp.AddForce(new Vector2(10000f*(direction.x-direction.y*0.5f),10000f*(direction.y+direction.x*0.5f)));
             contact = false;
         }
         if (Input.GetKey(KeyCode.RightArrow) && contact)
         {
-            rigidbody.AddForce(new Vector2(10000f * (direction.x + direction.y*0.5f), 10000f * (direction.y - direction.x*0.5f)));
+            rigidbodyp.AddForce(new Vector2(10000f * (direction.x + direction.y*0.5f), 10000f * (direction.y - direction.x*0.5f)));
             contact = false;
         }
     }

@@ -7,6 +7,9 @@ TagManager:
   - planet
   - Info
   - Buildable
+  - ChoiceMenu
+  - 'ChoiceMenuBoutton '
+  - Boutton
   layers:
   - Default
   - TransparentFX
