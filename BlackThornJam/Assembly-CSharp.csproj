@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\BubleShow.cs" />
     <Compile Include="Assets\Script\Build\ActivateHalo.cs" />
     <Compile Include="Assets\Script\Build\BuildChangement.cs" />
     <Compile Include="Assets\Script\Build\BuildInfo.cs" />
@@ -74,10 +75,12 @@
     <Compile Include="Assets\Script\FollowPlayer.cs" />
     <Compile Include="Assets\Script\GlobalScript\GlobalVar.cs" />
     <Compile Include="Assets\Script\GlobalScript\ObjetList.cs" />
+    <Compile Include="Assets\Script\GlobalScript\WinAnimation.cs" />
     <Compile Include="Assets\Script\GotoNavmap.cs" />
     <Compile Include="Assets\Script\MenuForPiple.cs" />
     <Compile Include="Assets\Script\NavMap\CameraOnNavMap.cs" />
     <Compile Include="Assets\Script\NavMap\CreateSavefile.cs" />
+    <Compile Include="Assets\Script\NavMap\FinishedPlanet.cs" />
     <Compile Include="Assets\Script\NavMap\GotoMenu.cs" />
     <Compile Include="Assets\Script\NavMap\LoadPlanet.cs" />
     <Compile Include="Assets\Script\NavMap\MoveCamera.cs" />

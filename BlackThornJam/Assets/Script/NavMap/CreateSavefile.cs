@@ -31,7 +31,7 @@ public class CreateSavefile : MonoBehaviour
             disponible.dispoTools = new bool[10] { true, true, true, true, false, false, false, false, false, false };
             foreach (GameObject planet in planets)
             {
-                planetName = "Planet" + count.ToString() + ".txt";
+                planetName = planet.name + ".txt";
                 dataPath = Path.Combine(Application.persistentDataPath, planetName);
                 Save(dataPath);
                 Debug.Log(dataPath);

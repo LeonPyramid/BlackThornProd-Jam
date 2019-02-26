@@ -38,6 +38,10 @@ public class GlobalVar : MonoBehaviour
             GameObject.Find("Button (" + count.ToString() + ")").SetActive(dispoTool.dispoTools[count]);
             count += 1;
         }
+        if (PlanetInfo.win)
+        {
+            GameObject.Destroy(GameObject.FindGameObjectWithTag("Win").gameObject);
+        }
         count = 0;
         foreach(GameObject build in buildable)
         {
@@ -69,10 +73,6 @@ public class GlobalVar : MonoBehaviour
         {
             win = true;
 
-        }
-        else
-        {
-            win = false;
         }
         PlanetInfo.win = win;
 
