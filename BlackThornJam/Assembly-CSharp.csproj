@@ -78,9 +78,12 @@
     <Compile Include="Assets\Script\MenuForPiple.cs" />
     <Compile Include="Assets\Script\NavMap\CameraOnNavMap.cs" />
     <Compile Include="Assets\Script\NavMap\CreateSavefile.cs" />
+    <Compile Include="Assets\Script\NavMap\GotoMenu.cs" />
     <Compile Include="Assets\Script\NavMap\LoadPlanet.cs" />
     <Compile Include="Assets\Script\NavMap\MoveCamera.cs" />
     <Compile Include="Assets\Script\Player\CaracterMove.cs" />
+    <Compile Include="Assets\Script\QuitButton.cs" />
+    <Compile Include="Assets\Script\ResetMenu.cs" />
     <Compile Include="Assets\Script\Save\DisponibleTool.cs" />
     <Compile Include="Assets\Script\Save\PlanetInfo.cs" />
     <Compile Include="Assets\Script\Save\SaveFromWorld.cs" />
