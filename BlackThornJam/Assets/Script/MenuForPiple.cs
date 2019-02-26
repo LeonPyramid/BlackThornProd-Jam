@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuildNumber : MonoBehaviour
+public class MenuForPiple : MonoBehaviour
 {
-    public GameObject build;
+    public GameObject menu;
 }

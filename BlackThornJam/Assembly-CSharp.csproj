@@ -61,24 +61,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Dialog.cs" />
-    <Compile Include="Assets\DialogList.cs" />
-    <Compile Include="Assets\DialogManager.cs" />
-    <Compile Include="Assets\DialogTrigger.cs" />
     <Compile Include="Assets\Script\Build\ActivateHalo.cs" />
     <Compile Include="Assets\Script\Build\BuildChangement.cs" />
     <Compile Include="Assets\Script\Build\BuildInfo.cs" />
-    <Compile Include="Assets\Script\BuildNumber.cs" />
-    <Compile Include="Assets\Script\ChangeBuild.cs" />
+    <Compile Include="Assets\Script\Build\BuildNumber.cs" />
+    <Compile Include="Assets\Script\Build\ChangeBuild.cs" />
+    <Compile Include="Assets\Script\Build\SetPosAndRot.cs" />
+    <Compile Include="Assets\Script\Dialog\Dialog.cs" />
+    <Compile Include="Assets\Script\Dialog\DialogList.cs" />
+    <Compile Include="Assets\Script\Dialog\DialogManager.cs" />
+    <Compile Include="Assets\Script\Dialog\DialogTrigger.cs" />
     <Compile Include="Assets\Script\FollowPlayer.cs" />
     <Compile Include="Assets\Script\GlobalScript\GlobalVar.cs" />
     <Compile Include="Assets\Script\GlobalScript\ObjetList.cs" />
     <Compile Include="Assets\Script\GotoNavmap.cs" />
+    <Compile Include="Assets\Script\MenuForPiple.cs" />
     <Compile Include="Assets\Script\NavMap\CameraOnNavMap.cs" />
+    <Compile Include="Assets\Script\NavMap\CreateSavefile.cs" />
     <Compile Include="Assets\Script\NavMap\LoadPlanet.cs" />
     <Compile Include="Assets\Script\NavMap\MoveCamera.cs" />
     <Compile Include="Assets\Script\Player\CaracterMove.cs" />
-    <Compile Include="Assets\Script\SetPosAndRot.cs" />
+    <Compile Include="Assets\Script\Save\DisponibleTool.cs" />
+    <Compile Include="Assets\Script\Save\PlanetInfo.cs" />
+    <Compile Include="Assets\Script\Save\SaveFromWorld.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJam/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

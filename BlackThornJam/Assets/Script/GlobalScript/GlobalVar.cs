@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class GlobalVar : MonoBehaviour
 {
@@ -17,18 +18,35 @@ public class GlobalVar : MonoBehaviour
     public int argentg { get { return argent; } }
     private GameObject[] buildable;
     private GameObject choiceMenu;
-    public bool[] choiceMenuActivation;
+    private int[] buildId;
+    public DisponibleTool dispoTool;
     private GameObject[] choiceMenuBoutton;
     private int count = 1;
     public bool win;
+    public int id;
+    public PlanetInfo PlanetInfo;
     void Start()
     {
+        PlanetInfo = GetComponent<SaveFromWorld>().LoadPlanet();
+        dispoTool = GetComponent<SaveFromWorld>().LoadTool();
+        buildId = PlanetInfo.buildId;
         buildable = GameObject.FindGameObjectsWithTag("Buildable");
-        choiceMenu = GameObject.FindGameObjectWithTag("ChoiceMenu");
+        choiceMenu = FindObjectOfType<MenuForPiple>().menu;
         choiceMenuBoutton = GameObject.FindGameObjectsWithTag("Boutton");
         foreach(GameObject boutton in choiceMenuBoutton)
         {
-            boutton.SetActive(choiceMenuActivation[count]);
+            boutton.SetActive(dispoTool.dispoTools[count]);
+            count += 1;
+        }
+        count = 0;
+        foreach(GameObject build in buildable)
+        {
+            id = buildId[count];
+            build.GetComponent<BuildInfo>().id = id;
+            build.GetComponent<BuildInfo>().social = FindObjectOfType<ObjetList>().socialList[id];
+            build.GetComponent<BuildInfo>().argent = FindObjectOfType<ObjetList>().argentList[id];
+            build.GetComponent<BuildInfo>().ecologie = FindObjectOfType<ObjetList>().ecologieList[id];
+            build.GetComponent<SpriteRenderer>().sprite = FindObjectOfType<ObjetList>().imageList[id];
             count += 1;
         }
         choiceMenu.SetActive(false);
@@ -38,19 +56,26 @@ public class GlobalVar : MonoBehaviour
         social = socialBasic;
         argent = argentBasic;
         ecologie = ecologieBasic;
+        count = 0;
         foreach(GameObject build in buildable)
         {
+            PlanetInfo.buildId[count] = build.GetComponent<BuildInfo>().id;
             social += build.GetComponent<BuildInfo>().social;
             argent += build.GetComponent<BuildInfo>().argent;
             ecologie += build.GetComponent<BuildInfo>().ecologie;
+            count += 1;
         }
         if (social > 2 && argent > 2 && ecologie > 2)
         {
             win = true;
+
         }
         else
         {
             win = false;
         }
+        PlanetInfo.win = win;
+
     }
+   
 }

@@ -9,17 +9,24 @@ public class BuildInfo : MonoBehaviour
     public int argent;
     public int id;
     public GameObject choiceMenu;
+    public float timecop;
     void Start()
     {
-        choiceMenu = GameObject.FindGameObjectWithTag("ChoiceMenu");
+        choiceMenu = FindObjectOfType<MenuForPiple>().menu;
     }
     public void OnMouseDown()
     {
         if (!choiceMenu.active)
         {
-            choiceMenu.SetActive(true);
-            choiceMenu.GetComponent<BuildNumber>().build = this.gameObject;
+            StartCoroutine(launchDelay());
         }
        
     }
+    public IEnumerator launchDelay()
+    {
+        yield return new WaitForSecondsRealtime(0.05f);
+        choiceMenu.SetActive(true);
+        choiceMenu.GetComponent<BuildNumber>().build = this.gameObject;
+    }
+
 }

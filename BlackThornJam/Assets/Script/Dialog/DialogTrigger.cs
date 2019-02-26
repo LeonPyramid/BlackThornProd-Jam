@@ -9,10 +9,10 @@ public class DialogTrigger : MonoBehaviour
     private Dialog randDialogList;
     public Dialog randDialog;
     private int random;
-    private GameObject menu;
+    public GameObject menu;
     private void Start()
     {
-        menu = FindObjectOfType<BuildNumber>().gameObject;
+        menu = FindObjectOfType<MenuForPiple>().menu;
     }
     public void OnMouseDown()
     {
