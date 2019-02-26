@@ -3,11 +3,12 @@ PlayerPath?
 D:/Game Design/Unity/Test Build/BlackThorn/BlackThornJam.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
-Assets/Scenes/Planet0.unity
 Assets/Scenes/NavMap.unity
+Assets/Scenes/Planet0.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 e89c5a584c0b1604e833c91eef892a92 Assembly-CSharp.dll:.DialogTrigger
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.QuitButton
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FollowPlayer
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -101,7 +102,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 00274a21279f5cb831ce20f895049e38 Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
-bef94d4117f7596206a12c9c9ea4e4be Assembly-CSharp.dll:.GlobalVar
+689bd789b271911646e7ad865fa2e76e Assembly-CSharp.dll:.GlobalVar
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 1dcb82730d983b77cec736c6ef19f814 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -118,6 +119,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 021a6341b210b301f8ac4aa87cd6f307 Assembly-CSharp.dll:.DialogList
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GotoMenu
 1c7291225c802d2df74ac31d2116bd4b Assembly-CSharp.dll:.CameraOnNavMap
 c72607e62a280d41c89ab63c8db4ea2a Assembly-CSharp.dll:.ActivateHalo
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
@@ -170,6 +172,7 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 b9048d3760274b9fd3dc94b75b3d0f96 Assembly-CSharp.dll:.MoveCamera
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+0bcb0a6a2a6762142ce7a7e07d24d679 Assembly-CSharp.dll:.CreateSavefile
 777f2110fca88c6f5f4db097b94a0d17 Assembly-CSharp.dll:.ObjetList
 35ec97400fd57993e189a9a878318af3 Assembly-CSharp.dll:.MenuForPiple
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
@@ -177,4 +180,4 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 bac188be406aa49b444bc4151be13db0 Assembly-CSharp.dll:.LoadPlanet
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-058a386776d04e55cbcb73e570f241ac Assembly-CSharp.dll:.CreateSavefile
+d785712e9003a299d969e63bc21a7a59 Assembly-CSharp.dll:.ResetMenu

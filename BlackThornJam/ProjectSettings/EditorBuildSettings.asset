@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 27c709ddf6ed86348b4ee07945116e0c
   - enabled: 1
-    path: Assets/Scenes/Planet0.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/NavMap.unity
     guid: dd9cd4f5ea9d4244f8c1032979912832
+  - enabled: 1
+    path: Assets/Scenes/Planet0.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

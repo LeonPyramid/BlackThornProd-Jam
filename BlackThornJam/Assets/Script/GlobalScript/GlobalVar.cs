@@ -35,7 +35,7 @@ public class GlobalVar : MonoBehaviour
         choiceMenuBoutton = GameObject.FindGameObjectsWithTag("Boutton");
         foreach(GameObject boutton in choiceMenuBoutton)
         {
-            boutton.SetActive(dispoTool.dispoTools[count]);
+            GameObject.Find("Button (" + count.ToString() + ")").SetActive(dispoTool.dispoTools[count]);
             count += 1;
         }
         count = 0;
