@@ -54,6 +54,9 @@ public class WinAnimation : MonoBehaviour
         time = Random.Range(0.1f, 0.5f);
         yield return new WaitForSeconds(time);
         GenerateFireworks(range);
+        time = Random.Range(0.1f, 0.5f);
+        yield return new WaitForSeconds(time);
+        GenerateFireworks(range);
         Destroy(this.gameObject);
     }
 }
