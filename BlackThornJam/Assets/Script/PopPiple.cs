@@ -17,18 +17,22 @@ public class PopPiple : MonoBehaviour
         if (changeable)
         {
             spriteR = GetComponent<SpriteRenderer>();
-                    global = FindObjectOfType<GlobalVar>();
-                    well = spriteR.sprite;
-                    bad = null;
-                    State = true;
-                    spriteR.sprite = well;
+            global = FindObjectOfType<GlobalVar>();
+            well = spriteR.sprite;
+            bad = null;
+            State = true;
+            spriteR.sprite = well;
 
-                    if (global.socialBasic < 3)
-                    {
-                        State = false;
-                        spriteR.sprite = bad;
-                        bubble.SetActive(false);
-                    }
+            if (global.socialBasic < 3)
+            {
+                State = false;
+                spriteR.sprite = bad;
+                GetComponent<BubleShow>().active = false;
+            }
+        }
+        else
+        {
+            GetComponent<BubleShow>().active = true;
         }
         
 
@@ -37,27 +41,28 @@ public class PopPiple : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     if (changeable)
+        if (changeable)
         {
             if (global.socialg < 3 && State && global.socialg != 0)
-                    {
-                        StartCoroutine(ChangeSprite(bad,false));
-                        State = false;
-                    }
-                    else if (!State && global.socialg > 2 && global.socialg != 0)
-                    {
-                        StartCoroutine(ChangeSprite(well,true));
-                        State = true;
-                    }
+            {
+                StartCoroutine(ChangeSprite(bad));
+                GetComponent<BubleShow>().active = false;
+                State = false;
+            }
+            else if (!State && global.socialg > 2 && global.socialg != 0)
+            {
+                StartCoroutine(ChangeSprite(well));
+                GetComponent<BubleShow>().active = true;
+                State = true;
+            }
         }  
         
         
     }
-    public IEnumerator ChangeSprite(Sprite sprite, bool bo)
+    public IEnumerator ChangeSprite(Sprite sprite)
     {
         yield return new WaitForSeconds(Random.Range(0f, 1f));
         spriteR.sprite = sprite;
-        bubble.SetActive(bo);
     }
 
 }

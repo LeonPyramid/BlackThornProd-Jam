@@ -5,6 +5,7 @@ using UnityEngine;
 public class BubleShow : MonoBehaviour
 {
     public GameObject bubble;
+    public bool active;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +14,11 @@ public class BubleShow : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        bubble.SetActive(true);
+        if (active)
+        {
+            bubble.SetActive(true);
+        }
+        
     }
     private void OnMouseExit()
     {

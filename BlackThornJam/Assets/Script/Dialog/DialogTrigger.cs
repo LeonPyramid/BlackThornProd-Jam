@@ -21,25 +21,39 @@ public class DialogTrigger : MonoBehaviour
     {
         if (!menu.active)
         {
-            if (dialog.dialog.Length == 0)
+            
+            
+            if (global.win)
             {
-                randDialogList = FindObjectOfType<DialogList>().DialogChoice();
-                random = Random.Range(0, randDialogList.dialog.Length);
-                randDialog.dialog[0] = randDialogList.dialog[random];
-                TriggerDialog(randDialog);
+                
+                if (dialogWin.dialog.Length == 0)
+                {
+                    randDialogList = FindObjectOfType<DialogList>().DialogChoice();
+                    random = Random.Range(0, randDialogList.dialog.Length);
+                    randDialog.dialog[0] = randDialogList.dialog[random];
+                    TriggerDialog(randDialog);
+                }
+                else
+                {
+                    TriggerDialog(dialogWin);
+                }
             }
             else
             {
-                if (global.win)
+                if (dialog.dialog.Length == 0)
                 {
-                    TriggerDialog(dialogWin);
+                    randDialogList = FindObjectOfType<DialogList>().DialogChoice();
+                    random = Random.Range(0, randDialogList.dialog.Length);
+                    randDialog.dialog[0] = randDialogList.dialog[random];
+                    TriggerDialog(randDialog);
                 }
                 else
                 {
                     TriggerDialog(dialog);
                 }
-                
             }
+                
+            
         }
         
 

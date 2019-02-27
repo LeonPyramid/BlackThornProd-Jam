@@ -22,7 +22,7 @@ public class SetPosAndRot: MonoBehaviour
         planet = GameObject.FindGameObjectWithTag("planet");
         direction = this.transform.position - planet.transform.position;
         direction = direction.normalized;
-        angle = direction.y > 0 ? Mathf.Acos((float)direction.x) * 180f / 3.141592f -90f: -(Mathf.Acos((float)direction.x) * 180f / 3.14159265359f) + 360f-90f;
+        angle = direction.y > 0 ? Mathf.Acos((float)direction.x) * 180f / 3.14159265359f - 90f: -(Mathf.Acos((float)direction.x) * 180f / 3.14159265359f) + 360f-90f;
         transform.eulerAngles = new Vector3(0, 0, angle);
         transform.position = new Vector3(direction.x * totalHeigh, direction.y * totalHeigh, transform.position.z);
     }
@@ -31,7 +31,7 @@ public class SetPosAndRot: MonoBehaviour
     {
         direction = this.transform.position - planet.transform.position;
         direction = direction.normalized;
-        angle = direction.y > 0 ? Mathf.Acos((float)direction.x) * 180f / 3.141592f -90f: -(Mathf.Acos((float)direction.x) * 180f / 3.14159265359f) + 360f-90f;
+        angle = direction.y > 0 ? Mathf.Acos((float)direction.x) * 180f / 3.14159265359f - 90f: -(Mathf.Acos((float)direction.x) * 180f / 3.14159265359f) + -90f;
         transform.eulerAngles = new Vector3(0, 0, angle);
     }
 }
