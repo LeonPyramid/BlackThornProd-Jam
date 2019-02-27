@@ -42,6 +42,7 @@ public class GlobalVar : MonoBehaviour
         {
             GameObject.Destroy(GameObject.FindGameObjectWithTag("Win").gameObject);
         }
+        win = PlanetInfo.win;
         count = 0;
         foreach(GameObject build in buildable)
         {

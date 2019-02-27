@@ -6,13 +6,16 @@ public class DialogTrigger : MonoBehaviour
 {
 
     public Dialog dialog;
+    public Dialog dialogWin;
     private Dialog randDialogList;
     public Dialog randDialog;
     private int random;
     public GameObject menu;
+    private GlobalVar global;
     private void Start()
     {
         menu = FindObjectOfType<MenuForPiple>().menu;
+        global = FindObjectOfType<GlobalVar>();
     }
     public void OnMouseDown()
     {
@@ -27,7 +30,15 @@ public class DialogTrigger : MonoBehaviour
             }
             else
             {
-                TriggerDialog(dialog);
+                if (global.win)
+                {
+                    TriggerDialog(dialogWin);
+                }
+                else
+                {
+                    TriggerDialog(dialog);
+                }
+                
             }
         }
         

@@ -11,7 +11,7 @@ public class FinishedPlanet : MonoBehaviour
     void Start()
     {
         info = LoadPlanet();
-        if(info.win)
+        if(info.win&&File.Exists(Path.Combine(Application.persistentDataPath, "Test.txt")))
         {
             flag.SetActive(true);
         }
