@@ -31,7 +31,7 @@ public class GlobalVar : MonoBehaviour
     {
         if (!File.Exists(Path.Combine(Application.persistentDataPath, SceneManager.GetActiveScene().name + ".txt")))
         {
-            string jsonString = JsonUtility.ToJson(GameObject.FindGameObjectWithTag("Info").GetComponent<GlobalVar>().PlanetInfo);
+            string jsonString = JsonUtility.ToJson(PlanetInfo);
 
             using (StreamWriter streamWriter = File.CreateText(Path.Combine(Application.persistentDataPath, SceneManager.GetActiveScene().name + ".txt"))
             {
