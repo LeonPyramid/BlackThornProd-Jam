@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class DialogTrigger : MonoBehaviour
 {
@@ -22,36 +23,39 @@ public class DialogTrigger : MonoBehaviour
         if (!menu.active)
         {
             
-            
-            if (global.win)
+          if(!EventSystem.current.IsPointerOverGameObject())
             {
+               if (global.win)
+                {
                 
-                if (dialogWin.dialog.Length == 0)
-                {
-                    randDialogList = FindObjectOfType<DialogList>().DialogChoice();
-                    random = Random.Range(0, randDialogList.dialog.Length);
-                    randDialog.dialog[0] = randDialogList.dialog[random];
-                    TriggerDialog(randDialog);
+                    if (dialogWin.dialog.Length == 0)
+                    {
+                        randDialogList = FindObjectOfType<DialogList>().DialogChoice();
+                        random = Random.Range(0, randDialogList.dialog.Length);
+                        randDialog.dialog[0] = randDialogList.dialog[random];
+                        TriggerDialog(randDialog);
+                    }
+                    else
+                    {
+                        TriggerDialog(dialogWin);
+                    }
                 }
                 else
                 {
-                    TriggerDialog(dialogWin);
+                    if (dialog.dialog.Length == 0)
+                    {
+                        randDialogList = FindObjectOfType<DialogList>().DialogChoice();
+                        random = Random.Range(0, randDialogList.dialog.Length);
+                        randDialog.dialog[0] = randDialogList.dialog[random];
+                        TriggerDialog(randDialog);
+                    }
+                    else
+                    {
+                        TriggerDialog(dialog);
+                    }
                 }
             }
-            else
-            {
-                if (dialog.dialog.Length == 0)
-                {
-                    randDialogList = FindObjectOfType<DialogList>().DialogChoice();
-                    random = Random.Range(0, randDialogList.dialog.Length);
-                    randDialog.dialog[0] = randDialogList.dialog[random];
-                    TriggerDialog(randDialog);
-                }
-                else
-                {
-                    TriggerDialog(dialog);
-                }
-            }
+ 
                 
             
         }

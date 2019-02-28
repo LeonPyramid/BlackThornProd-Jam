@@ -963,8 +963,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1297946634}
-  - component: {fileID: 1297946636}
   - component: {fileID: 1297946635}
+  - component: {fileID: 1297946636}
   m_Layer: 0
   m_Name: Antenna
   m_TagString: Untagged
@@ -1048,8 +1048,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprites:
   - {fileID: 21300000, guid: 413f20c3610db9c44a76cf6d7b1694eb, type: 3}
+  - {fileID: 21300000, guid: 413f20c3610db9c44a76cf6d7b1694eb, type: 3}
+  - {fileID: 21300000, guid: 413f20c3610db9c44a76cf6d7b1694eb, type: 3}
+  - {fileID: 21300000, guid: 413f20c3610db9c44a76cf6d7b1694eb, type: 3}
   - {fileID: 21300000, guid: 97938b9f7ac31ea4e8733e5d03b82088, type: 3}
   - {fileID: 21300000, guid: d071146b24a5bfd46af6dfacc5910820, type: 3}
+  - {fileID: 21300000, guid: c56e10c80102bc54694587dc2ce38df7, type: 3}
 --- !u!1 &1633409308
 GameObject:
   m_ObjectHideFlags: 0

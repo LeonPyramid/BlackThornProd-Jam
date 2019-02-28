@@ -12,6 +12,7 @@ TagManager:
   - Boutton
   - DialogManager
   - Win
+  - Buildopedia
   layers:
   - Default
   - TransparentFX
