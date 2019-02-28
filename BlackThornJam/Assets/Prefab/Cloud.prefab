@@ -109,3 +109,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   well: {fileID: 21300000, guid: 331ee45250b9aba4fa458c453508352f, type: 3}
   bad: {fileID: 21300000, guid: d2ba1384f7305b847a0c2d77145b7ddd, type: 3}
+  fact: 1

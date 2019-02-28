@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 172386887686550367}
   - component: {fileID: 6980218557661520421}
+  - component: {fileID: 1426862560475163583}
   - component: {fileID: 1885085171719234454}
   - component: {fileID: 5886706834756300490}
   m_Layer: 5
@@ -48,6 +49,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495164221786617102}
   m_CullTransparentMesh: 0
+--- !u!114 &1426862560475163583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495164221786617102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f950603433ce458e3147bfbc8de2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pages: []
+  pageRef: {fileID: 0}
 --- !u!114 &1885085171719234454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.769, g: 0.5670046, b: 0.36146545, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -116,7 +131,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1885085171719234454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1426862560475163583}
+        m_MethodName: OpenPage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &2181087932168868632

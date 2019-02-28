@@ -19,7 +19,7 @@ public class Forcer : MonoBehaviour
     void Update()
     {
         win = FindObjectOfType<GlobalVar>().win;
-        if(first && win)
+        if(first && win&&zonei!=0)
         {
             Debug.Log("ok");
             first = false;
