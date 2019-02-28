@@ -31,13 +31,13 @@ public class CaracterMove : MonoBehaviour
         direction = direction.normalized;
         angle = direction.y > 0 ? Mathf.Acos((float)direction.x) * 180f / 3.14159265359f -90f: - (Mathf.Acos((float)direction.x) * 180f / 3.14159265359f) + 360f-90f;
         transform.eulerAngles = new Vector3(0, 0, angle);
-        if (Input.GetKey(KeyCode.LeftArrow)&&contact)
+        if ((Input.GetKey(KeyCode.LeftArrow)||Input.GetKey(KeyCode.A))&&contact)
         {
             rigidbodyp.AddForce(new Vector2(10000f*(direction.x-direction.y*0.5f),10000f*(direction.y+direction.x*0.5f)));
             m_JumpStream.Play();
             contact = false;
         }
-        if (Input.GetKey(KeyCode.RightArrow) && contact)
+        if ((Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) && contact)
         {
             rigidbodyp.AddForce(new Vector2(10000f * (direction.x + direction.y*0.5f), 10000f * (direction.y - direction.x*0.5f)));
             m_JumpStream.Play();
