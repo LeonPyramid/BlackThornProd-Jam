@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class GlobalVar : MonoBehaviour
 {
@@ -28,6 +29,15 @@ public class GlobalVar : MonoBehaviour
     public DisponibleTool tamp;
     void Start()
     {
+        if (!File.Exists(Path.Combine(Application.persistentDataPath, SceneManager.GetActiveScene().name + ".txt")))
+        {
+            string jsonString = JsonUtility.ToJson(GameObject.FindGameObjectWithTag("Info").GetComponent<GlobalVar>().PlanetInfo);
+
+            using (StreamWriter streamWriter = File.CreateText(Path.Combine(Application.persistentDataPath, SceneManager.GetActiveScene().name + ".txt"))
+            {
+                streamWriter.Write(jsonString);
+            }
+        }
         PlanetInfo = GetComponent<SaveFromWorld>().LoadPlanet();
         dispoTool = GetComponent<SaveFromWorld>().LoadTool();
         buildId = PlanetInfo.buildId;
