@@ -6,9 +6,11 @@ public class BubleShow : MonoBehaviour
 {
     public GameObject bubble;
     public bool active;
+    public GameObject buildopedia;
     // Start is called before the first frame update
     void Start()
     {
+
         bubble.SetActive(false);
     }
 
