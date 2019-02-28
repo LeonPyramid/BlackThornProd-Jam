@@ -6,6 +6,8 @@ public class ChangeBuild : MonoBehaviour
 {
     public int param;
     private GameObject choiceMenu;
+    public AudioSource m_DestructStream;
+    public AudioSource m_ConstructStream;
     void Start()
     {
         choiceMenu = GameObject.FindGameObjectWithTag("ChoiceMenu");
@@ -15,5 +17,13 @@ public class ChangeBuild : MonoBehaviour
     {
         choiceMenu.GetComponent<BuildNumber>().build.GetComponent<BuildChangement>().ChangeInfo(param);
         choiceMenu.SetActive(false);
-    }
+        if (param == 0)
+        {
+            m_DestructStream.Play();
+        }
+        else
+        {
+            m_ConstructStream.Play();
+        }
+            }
 }
