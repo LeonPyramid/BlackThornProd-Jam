@@ -14,6 +14,7 @@ public class CaracterMove : MonoBehaviour
     private bool contactVerif;
     private float timer;
     public float jumpTime;
+    public AudioSource m_JumpStream;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,11 +34,13 @@ public class CaracterMove : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftArrow)&&contact)
         {
             rigidbodyp.AddForce(new Vector2(10000f*(direction.x-direction.y*0.5f),10000f*(direction.y+direction.x*0.5f)));
+            m_JumpStream.Play();
             contact = false;
         }
         if (Input.GetKey(KeyCode.RightArrow) && contact)
         {
             rigidbodyp.AddForce(new Vector2(10000f * (direction.x + direction.y*0.5f), 10000f * (direction.y - direction.x*0.5f)));
+            m_JumpStream.Play();
             contact = false;
         }
         if (!contact&&contact!=contactVerif)
