@@ -68,6 +68,7 @@
     <Compile Include="Assets\Script\Build\BuildNumber.cs" />
     <Compile Include="Assets\Script\Build\ChangeBuild.cs" />
     <Compile Include="Assets\Script\Build\SetPosAndRot.cs" />
+    <Compile Include="Assets\Script\BuildCount.cs" />
     <Compile Include="Assets\Script\ChangeState.cs" />
     <Compile Include="Assets\Script\CloudFlyer.cs" />
     <Compile Include="Assets\Script\Dialog\Dialog.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Script\Dialog\DialogManager.cs" />
     <Compile Include="Assets\Script\Dialog\DialogTrigger.cs" />
     <Compile Include="Assets\Script\FollowPlayer.cs" />
+    <Compile Include="Assets\Script\Forcer.cs" />
     <Compile Include="Assets\Script\GlobalScript\GlobalVar.cs" />
     <Compile Include="Assets\Script\GlobalScript\ObjetList.cs" />
     <Compile Include="Assets\Script\GlobalScript\WinAnimation.cs" />
@@ -91,9 +93,14 @@
     <Compile Include="Assets\Script\NavMap\MoveCamera.cs" />
     <Compile Include="Assets\Script\Player\CaracterMove.cs" />
     <Compile Include="Assets\Script\PopPiple.cs" />
+    <Compile Include="Assets\Script\Save\AntennaChanger.cs" />
     <Compile Include="Assets\Script\Save\DisponibleTool.cs" />
     <Compile Include="Assets\Script\Save\PlanetInfo.cs" />
     <Compile Include="Assets\Script\Save\SaveFromWorld.cs" />
+    <Compile Include="Assets\Script\Save\ZoneLoader.cs" />
+    <Compile Include="Assets\Script\Save\ZoneStade.cs" />
+    <Compile Include="Assets\Script\TutoDialog.cs" />
+    <Compile Include="Assets\Script\TutoStat.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJam/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

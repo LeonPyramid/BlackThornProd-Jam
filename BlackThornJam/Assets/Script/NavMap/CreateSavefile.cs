@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class CreateSavefile : MonoBehaviour
 {
@@ -13,19 +14,23 @@ public class CreateSavefile : MonoBehaviour
     public DisponibleTool disponible;
     public PlanetInfo planetInfo;
     public string toolPath;
+    public ZoneStade zone;
     public bool overrideSave;
+    public TutoStat tutoStat;
     // Start is called before the first frame update
     void Start()
     {
+
         planets = GameObject.FindGameObjectsWithTag("planet");
         pathToTest = Path.Combine(Application.persistentDataPath, "Test.txt");
         toolPath = Path.Combine(Application.persistentDataPath, "Tool.txt");
-        //sr = File.OpenRead(pathToTest);
         if (overrideSave) { File.Delete(pathToTest); }
-        if (!File.Exists(pathToTest)/*||sr.ToString() == ""*/)
+        if (!File.Exists(pathToTest))
         {
+            tutoStat.stat = 0;
             File.Create(pathToTest);
-            //sr.Write(new byte[] { 20 }, 0, 1);
+            zone.openArea = 0;
+            SaveZone();
             Debug.Log("tamer");
             count = 0;
             disponible.dispoTools = new bool[10] { true, true, true, true, false, false, false, false, false, false };
@@ -37,7 +42,8 @@ public class CreateSavefile : MonoBehaviour
                 Debug.Log(dataPath);
             }
             tool();
-
+            SaveTuto();
+            SceneManager.LoadScene("Planet0");
         }
     }
     public void Save(string dataPath)
@@ -56,6 +62,22 @@ public class CreateSavefile : MonoBehaviour
         using (StreamWriter streamWriter = File.CreateText(toolPath))
         {
             streamWriter.Write(tooljson);
+        }
+    }
+    public void SaveZone()
+    {
+        string json = JsonUtility.ToJson(zone);
+        using (StreamWriter str = File.CreateText(Path.Combine(Application.persistentDataPath, "Zone.txt")))
+        {
+            str.Write(json);
+        }
+    }
+    public void SaveTuto()
+    {
+        string json = JsonUtility.ToJson(tutoStat);
+        using (StreamWriter str = File.CreateText(Path.Combine(Application.persistentDataPath, "Tuto.txt")))
+        {
+            str.Write(json);
         }
     }
 

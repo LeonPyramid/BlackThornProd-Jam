@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class WinAnimation : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class WinAnimation : MonoBehaviour
     public int range;
     public GameObject camera;
     public bool first;
+    public GameObject guiArea;
+    public GameObject guiBuild;
+    public int buildWin;
+    public int zoneWin;
+    public ZoneStade zone;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +32,17 @@ public class WinAnimation : MonoBehaviour
         {
             first = false;
             StartCoroutine(Generator(range));
+            if (zoneWin > 0)
+            {
+                SaveZone(zoneWin);
+                guiArea.SetActive(true);
+            }
+            if (buildWin > 0)
+            {
+                Debug.Log("oui");
+                FindObjectOfType<GlobalVar>().dispoTool.dispoTools[buildWin] = true;
+                guiBuild.SetActive(true);
+            }
         }
     }
 
@@ -57,6 +74,23 @@ public class WinAnimation : MonoBehaviour
         time = Random.Range(0.1f, 0.5f);
         yield return new WaitForSeconds(time);
         GenerateFireworks(range);
-        Destroy(this.gameObject);
+
+    }
+    public void SaveZone(int zoneWin)
+    {
+        zone.openArea = zoneWin;
+        string json = JsonUtility.ToJson(zone);
+        using (StreamWriter str = File.CreateText(Path.Combine(Application.persistentDataPath, "Zone.txt")))
+        {
+            str.Write(json);
+        }
+    }
+    public void CloseBuild()
+    {
+        guiBuild.SetActive(false);
+    }
+    public void CloseArea()
+    {
+        guiArea.SetActive(false);
     }
 }

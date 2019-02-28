@@ -25,6 +25,7 @@ public class GlobalVar : MonoBehaviour
     public bool win;
     public int id;
     public PlanetInfo PlanetInfo;
+    public DisponibleTool tamp;
     void Start()
     {
         PlanetInfo = GetComponent<SaveFromWorld>().LoadPlanet();
@@ -37,7 +38,9 @@ public class GlobalVar : MonoBehaviour
         {
             GameObject.Find("Button (" + count.ToString() + ")").SetActive(dispoTool.dispoTools[count]);
             count += 1;
+            
         }
+        tamp = dispoTool;
         if (PlanetInfo.win)
         {
             GameObject.Destroy(GameObject.FindGameObjectWithTag("Win").gameObject);
