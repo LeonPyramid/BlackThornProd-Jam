@@ -382,6 +382,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 275.00015
       objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4529652075841174759, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -528,36 +558,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6434613113227368642, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -913,7 +913,7 @@ MonoBehaviour:
       place.
     - Can you feel the wind in your hair?
     - Look! Look! I'm so proud of my voice!!
-    - What a nice guy you are, thank you for everything!
+    - What a nice girl you are, thank you for everything!
     - I made an apple pie, do you want a piece?
     - This is my planet, and I love it!
     - Do you think it will rain tomorrow?
@@ -1268,6 +1268,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 85ec05f56410ef841a089e6e02591b53,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1292,11 +1297,6 @@ PrefabInstance:
         type: 3}
       propertyPath: persoHeigh
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1413,6 +1413,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 85ec05f56410ef841a089e6e02591b53,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1437,11 +1442,6 @@ PrefabInstance:
         type: 3}
       propertyPath: persoHeigh
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -2115,19 +2115,19 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
-      value: Okay, so here are your first client, you will have to take care of them.
+      value: Okay, so here are your first clients, you will have to take care of them.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[1]
-      value: But before that I will explain to you how you can help the people on
-        all of the planet of this system
+      value: But before that I'll explain to you how to help the people on all of
+        the planets in this system
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[2]
       value: 'They are 3 parameters that are describing the state of a planet , which
-        are te SEW: Society, Ecology, Wealth.'
+        are the SEW: Society, Ecology and Wealth.'
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2161,7 +2161,7 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[10]
-      value: If you want more info about your builds, you can go in your Build-O-Pedia,
+      value: If you want more informations about your builds, you can go in your Build-O-Pedia,
         here you will found everything you are looking for.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
@@ -2179,7 +2179,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[13]
       value: I don't think you need my help anymore, so good luck, and may the power
-        of you builds be with you!
+        of your builds be with you!
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2318,6 +2318,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 85ec05f56410ef841a089e6e02591b53,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -2342,11 +2347,6 @@ PrefabInstance:
         type: 3}
       propertyPath: persoHeigh
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -2559,6 +2559,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 85ec05f56410ef841a089e6e02591b53,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -2583,11 +2588,6 @@ PrefabInstance:
         type: 3}
       propertyPath: persoHeigh
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -3181,16 +3181,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinAnimation
       objectReference: {fileID: 0}
-    - target: {fileID: 6216743233093835663, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
-        type: 3}
-      propertyPath: zone
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6216743233093835663, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
-        type: 3}
-      propertyPath: zonei
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8099304181785152938, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3260,6 +3250,16 @@ PrefabInstance:
         type: 3}
       propertyPath: zoneWin
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216743233093835663, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
+        type: 3}
+      propertyPath: zone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216743233093835663, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
+        type: 3}
+      propertyPath: zonei
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4506188412136194461, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
         type: 3}

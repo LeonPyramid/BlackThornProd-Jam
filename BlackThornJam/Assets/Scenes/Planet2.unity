@@ -475,11 +475,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3760195893372882036, guid: c6d5307eccc5cc047811908f1eca47c3,
-        type: 3}
-      propertyPath: speed
-      value: 0.0008
-      objectReference: {fileID: 0}
     - target: {fileID: 5221246213478084388, guid: c6d5307eccc5cc047811908f1eca47c3,
         type: 3}
       propertyPath: fact
@@ -497,6 +492,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 49bddb2d474c3384fa2b6dbae12e54f5,
         type: 3}
+    - target: {fileID: 3760195893372882036, guid: c6d5307eccc5cc047811908f1eca47c3,
+        type: 3}
+      propertyPath: speed
+      value: 0.0008
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6d5307eccc5cc047811908f1eca47c3, type: 3}
 --- !u!4 &476911652 stripped
@@ -703,7 +703,7 @@ MonoBehaviour:
       place.
     - Can you feel the wind in your hair?
     - Look! Look! I'm so proud of my voice!!
-    - What a nice guy you are, thank you for everything!
+    - What a nice girl you are, thank you for everything!
     - I made an apple pie, do you want a piece?
     - This is my planet, and I love it!
     - Do you think it will rain tomorrow?
@@ -819,11 +819,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3760195893372882036, guid: c6d5307eccc5cc047811908f1eca47c3,
-        type: 3}
-      propertyPath: speed
-      value: -0.0012
-      objectReference: {fileID: 0}
     - target: {fileID: 5221246213478084388, guid: c6d5307eccc5cc047811908f1eca47c3,
         type: 3}
       propertyPath: fact
@@ -841,6 +836,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 585800a4128dab640bdade9b51f67205,
         type: 3}
+    - target: {fileID: 3760195893372882036, guid: c6d5307eccc5cc047811908f1eca47c3,
+        type: 3}
+      propertyPath: speed
+      value: -0.0012
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6d5307eccc5cc047811908f1eca47c3, type: 3}
 --- !u!1 &699231094
@@ -1107,7 +1107,7 @@ PrefabInstance:
     - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
       propertyPath: persoHeigh
-      value: 28
+      value: 23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a9c697701070a43b8ef8c8f57ab2af, type: 3}
@@ -1464,11 +1464,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6216743233093835663, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
-        type: 3}
-      propertyPath: zonei
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8099304181785152937, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
         type: 3}
       propertyPath: m_Name
@@ -1533,6 +1528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216743233093835663, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
+        type: 3}
+      propertyPath: zonei
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a23b67a4f53aa254fb30e61dd8bd6dc6, type: 3}
@@ -1708,11 +1708,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3760195893372882036, guid: c6d5307eccc5cc047811908f1eca47c3,
-        type: 3}
-      propertyPath: speed
-      value: 0.0008
-      objectReference: {fileID: 0}
     - target: {fileID: 5221246213478084388, guid: c6d5307eccc5cc047811908f1eca47c3,
         type: 3}
       propertyPath: fact
@@ -1730,6 +1725,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 49bddb2d474c3384fa2b6dbae12e54f5,
         type: 3}
+    - target: {fileID: 3760195893372882036, guid: c6d5307eccc5cc047811908f1eca47c3,
+        type: 3}
+      propertyPath: speed
+      value: 0.0008
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6d5307eccc5cc047811908f1eca47c3, type: 3}
 --- !u!1 &1739219152 stripped
@@ -2214,7 +2214,7 @@ PrefabInstance:
     - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
       propertyPath: persoHeigh
-      value: 28
+      value: 23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a9c697701070a43b8ef8c8f57ab2af, type: 3}

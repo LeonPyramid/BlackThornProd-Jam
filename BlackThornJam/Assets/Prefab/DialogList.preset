@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DialogList
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 046933d3fecaa1743894a07dfd7288f0,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: socialBas.dialog.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: socialBas.dialog.Array.data[0]
+    value: My neighbour is acting weird. I may call the Police...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: socialBas.dialog.Array.data[1]
+    value: My boss is breaking me down at work, I must be doomed.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: socialBas.dialog.Array.data[2]
+    value: Nobody comes when i'm calling for help. This planet is full of sellfish
+      people...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: socialBas.dialog.Array.data[3]
+    value: It's been a while since my brother had called me, I miss him.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: socialBas.dialog.Array.data[4]
+    value: Everybody is on his phone, we don't talk anymore on this planet.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ecoBas.dialog.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ecoBas.dialog.Array.data[0]
+    value: Last month they were a tree in my garden, now there is only Dirt.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ecoBas.dialog.Array.data[1]
+    value: Don't touch the water, it's poisoned!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ecoBas.dialog.Array.data[2]
+    value: Have you ever seen a cow with three eyes? Because I do!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ecoBas.dialog.Array.data[3]
+    value: This winter was as hot as last summer....
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ecoBas.dialog.Array.data[4]
+    value: Nah, I don't think it matters if we throw gazoline in the ocean.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: argentBas.dialog.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: argentBas.dialog.Array.data[0]
+    value: Do you have money? I'm so hungry and poor...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: argentBas.dialog.Array.data[1]
+    value: We will have to tighten our belt again this month, I don't win ennough
+      money anymore.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: argentBas.dialog.Array.data[2]
+    value: I will give everything for a good lunch...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: argentBas.dialog.Array.data[3]
+    value: I will have to sell my 4k TV, what a shame.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: argentBas.dialog.Array.data[4]
+    value: '2...3...4...5 dollard! I''m so rich!!
+
+'
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.size
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[0]
+    value: What a nice day.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[1]
+    value: Tomorrow I will go to the beach with my friends!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[2]
+    value: I found a piece of wood, I think I will carve it.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[3]
+    value: The butterfly are flying, the people are walking, this planet is sutch
+      a quiet place.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[4]
+    value: Can you feel the wind in your hair?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[5]
+    value: Look! Look! I'm so proud of my voice!!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[6]
+    value: What a nice girl you are, thank you for everything!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[7]
+    value: I made an apple pie, do you want a piece?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[8]
+    value: This is my planet, and I love it!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: toutOk.dialog.Array.data[9]
+    value: Do you think it will rain tomorrow?
+    objectReference: {fileID: 0}

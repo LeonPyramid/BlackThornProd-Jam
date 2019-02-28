@@ -277,7 +277,7 @@ MonoBehaviour:
       place.
     - Can you feel the wind in your hair?
     - Look! Look! I'm so proud of my voice!!
-    - What a nice guy you are, thank you for everything!
+    - What a nice girl you are, thank you for everything!
     - I made an apple pie, do you want a piece?
     - This is my planet, and I love it!
     - Do you think it will rain tomorrow?
@@ -1162,6 +1162,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 275
       objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4529652075841174759, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1308,36 +1338,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6434613113227368642, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1022988277685050456, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -2072,7 +2072,7 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
-      value: Hi young girl, and wellcome to PlanetCare Inc!
+      value: Hi young girl, and welcome to PlanetCare Inc!
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
