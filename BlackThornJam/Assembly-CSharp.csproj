@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\ActiveButton.cs" />
+    <Compile Include="Assets\Script\BoatChange.cs" />
     <Compile Include="Assets\Script\BubleShow.cs" />
     <Compile Include="Assets\Script\Build\ActivateHalo.cs" />
     <Compile Include="Assets\Script\Build\BuildChangement.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Script\BuildCount.cs" />
     <Compile Include="Assets\Script\CameraRemember.cs" />
     <Compile Include="Assets\Script\ChangeState.cs" />
+    <Compile Include="Assets\Script\ChangeState1.cs" />
     <Compile Include="Assets\Script\CloudFlyer.cs" />
     <Compile Include="Assets\Script\Dialog\Dialog.cs" />
     <Compile Include="Assets\Script\Dialog\DialogList.cs" />
