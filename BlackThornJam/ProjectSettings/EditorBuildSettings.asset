@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planet8.unity
     guid: c67a0d63fdc2e7443ae9e70115b9f02f
+  - enabled: 1
+    path: Assets/Scenes/Planet9.unity
+    guid: acf2bb594ec25e143b02be6a9bbddb2f
+  - enabled: 1
+    path: Assets/Scenes/Planet10.unity
+    guid: 5073be48c27a868408a9895bea83ef92
   m_configObjects: {}
