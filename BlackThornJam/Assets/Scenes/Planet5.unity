@@ -408,11 +408,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -423,6 +418,11 @@ PrefabInstance:
       propertyPath: dialog.dialog.Array.data[0]
       value: We dug into our planet for minerals. We found a lot of it, but now our
         planet is just a big rock...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1531,6 +1531,11 @@ PrefabInstance:
       propertyPath: zoneWin
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8099304181785152939, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
+        type: 3}
+      propertyPath: buildWin
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 721615616164618393, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
         type: 3}
       propertyPath: m_IsActive
@@ -1748,11 +1753,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1763,6 +1763,11 @@ PrefabInstance:
       propertyPath: dialog.dialog.Array.data[0]
       value: We dug into our planet for minerals. We found a lot of it, but now our
         planet is just a big rock...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1964,11 +1969,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1979,6 +1979,11 @@ PrefabInstance:
       propertyPath: dialog.dialog.Array.data[0]
       value: We dug into our planet for minerals. We found a lot of it, but now our
         planet is just a big rock...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -2726,7 +2731,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4cef1a80f1964ad47a570eef326010f3,
+      objectReference: {fileID: 21300000, guid: 088048df7ec9a614189e959d22539fd0,
         type: 3}
     - target: {fileID: 207865769, guid: 697f92dce303f7d4c9dbe849112088c1, type: 3}
       propertyPath: m_LocalPosition.z

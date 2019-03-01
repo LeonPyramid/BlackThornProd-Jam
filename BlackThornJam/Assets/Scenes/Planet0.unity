@@ -471,6 +471,7 @@ MonoBehaviour:
     win: 0
   tamp:
     dispoTools: 
+  fleau: 0
 --- !u!4 &699231096
 Transform:
   m_ObjectHideFlags: 0
@@ -1285,7 +1286,7 @@ PrefabInstance:
     - target: {fileID: 3234578001917991326, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3234578002587923012, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}

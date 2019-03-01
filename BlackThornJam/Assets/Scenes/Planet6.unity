@@ -284,6 +284,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TutoManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8481931102472246775, guid: 636a6b761b44a4c4aa28972db1ff244a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2256368750498370903, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -381,6 +386,11 @@ PrefabInstance:
       propertyPath: dialog.dialog.Array.data[2]
       value: To solve them you will need to build one peculiar build, which will solve
         the problem.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
+        type: 3}
+      propertyPath: forcetuto
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7508150342764067943, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -889,6 +899,11 @@ PrefabInstance:
     - target: {fileID: 8099304181785152939, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
         type: 3}
       propertyPath: zoneWin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099304181785152939, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
+        type: 3}
+      propertyPath: buildWin
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 721615616164618393, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,

@@ -1173,6 +1173,11 @@ PrefabInstance:
       propertyPath: zoneWin
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8099304181785152939, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
+        type: 3}
+      propertyPath: buildWin
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 721615616164618393, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
         type: 3}
       propertyPath: m_IsActive
@@ -1290,11 +1295,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4cd628380ecabb0499fa99f33b789839,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1304,6 +1304,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: Piracy is ruining our beautiful planet! We need to protect the sea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1739,11 +1744,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4cd628380ecabb0499fa99f33b789839,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1753,6 +1753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: Piracy is ruining our beautiful planet! We need to protect the sea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1855,11 +1860,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 4cd628380ecabb0499fa99f33b789839,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1869,6 +1869,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: Piracy is ruining our beautiful planet! We need to protect the sea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}

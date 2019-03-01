@@ -51,10 +51,11 @@ public class LoadPlanet : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        loadScreen.SetActive(true);
-        FindObjectOfType<MoveCamera>().SavePos();
         if (zone <= open.openArea)
+
         {
+            loadScreen.SetActive(true);
+            FindObjectOfType<MoveCamera>().SavePos();
             SceneManager.LoadScene(planetName);
         }
         

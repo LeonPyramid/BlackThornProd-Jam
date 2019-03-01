@@ -114,10 +114,11 @@ MonoBehaviour:
   planetNum: 0
   name: 
   zone: 0
-  hidden: {r: 0.35900003, g: 0.35900003, b: 0.35900003, a: 0.94509804}
+  hidden: {r: 0.35900003, g: 0.35900003, b: 0.35900003, a: 1}
   basic: {r: 1, g: 1, b: 1, a: 1}
   open:
     openArea: 0
+  loadScreen: {fileID: 0}
 --- !u!114 &3373247162768978670
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ public class DialogTrigger : MonoBehaviour
     }
     public void OnMouseDown()
     {
-        if (!menu.active)
+        if (!menu.active&&GetComponent<BubleShow>().active)
         {
             
           if(!EventSystem.current.IsPointerOverGameObject())

@@ -77,4 +77,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Planet21.unity
     guid: bac64e1268cb9d842929395c68c4dae8
+  - enabled: 1
+    path: Assets/Scenes/Planet22.unity
+    guid: 54530bd9a96c39d499b40804c027e5e3
   m_configObjects: {}

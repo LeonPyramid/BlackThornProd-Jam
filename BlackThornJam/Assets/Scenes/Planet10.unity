@@ -338,17 +338,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
       objectReference: {fileID: 0}
-    - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
-        type: 3}
-      propertyPath: persoHeigh
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 7359659216045622140, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
       propertyPath: well
       value: 
       objectReference: {fileID: 21300000, guid: 91ad04a4a3cf3e349aebf0fc807b08de,
         type: 3}
+    - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: persoHeigh
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a9c697701070a43b8ef8c8f57ab2af, type: 3}
 --- !u!1001 &189394142
@@ -623,11 +623,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 7b18033ef385fd544826279a1dc40496,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -637,6 +632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: Piracy is ruining our beautiful planet! We need to protect the sea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -971,8 +971,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantetHeigh: 100
-  socialBasic: 4
-  ecologieBasic: 1
+  socialBasic: 6
+  ecologieBasic: 0
   argentBasic: 4
   dispoTool:
     dispoTools: 
@@ -983,7 +983,7 @@ MonoBehaviour:
     win: 0
   tamp:
     dispoTools: 
-  fleau: 6
+  fleau: 0
 --- !u!4 &699231096
 Transform:
   m_ObjectHideFlags: 0
@@ -1341,7 +1341,7 @@ PrefabInstance:
     - target: {fileID: 8099304181785152939, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
         type: 3}
       propertyPath: zoneWin
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 721615616164618393, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
         type: 3}
@@ -1353,6 +1353,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 5070420572561963288, guid: a23b67a4f53aa254fb30e61dd8bd6dc6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d071146b24a5bfd46af6dfacc5910820,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a23b67a4f53aa254fb30e61dd8bd6dc6, type: 3}
 --- !u!4 &1027974211 stripped
@@ -1428,17 +1434,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
       objectReference: {fileID: 0}
-    - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
-        type: 3}
-      propertyPath: persoHeigh
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 7359659216045622140, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
       propertyPath: well
       value: 
       objectReference: {fileID: 21300000, guid: 91ad04a4a3cf3e349aebf0fc807b08de,
         type: 3}
+    - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: persoHeigh
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a9c697701070a43b8ef8c8f57ab2af, type: 3}
 --- !u!1001 &1163129335
@@ -1711,11 +1717,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 7b18033ef385fd544826279a1dc40496,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1725,6 +1726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: Piracy is ruining our beautiful planet! We need to protect the sea!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1881,17 +1887,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
       objectReference: {fileID: 0}
-    - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
-        type: 3}
-      propertyPath: persoHeigh
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 7359659216045622140, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
       propertyPath: well
       value: 
       objectReference: {fileID: 21300000, guid: 91ad04a4a3cf3e349aebf0fc807b08de,
         type: 3}
+    - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: persoHeigh
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a9c697701070a43b8ef8c8f57ab2af, type: 3}
 --- !u!1 &1677954814 stripped
