@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class MoveCamera : MonoBehaviour
 {
-    private Rigidbody2D rigidbody;
     public float force;
+    public CameraRemember cam;
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        if(File.Exists(Path.Combine(Application.persistentDataPath, "Cam.txt")))
+        {
+            transform.position = new Vector3(camLoad().xPos, transform.position.y, transform.position.z);
+        }
     }
 
     void Update()
@@ -28,6 +32,24 @@ public class MoveCamera : MonoBehaviour
         if (transform.position.x > 431)
         {
             transform.position = new Vector3(431, transform.position.y, transform.position.z);
+        }
+        cam.xPos = transform.position.x;
+    }
+    public void SavePos()
+    {
+        string jsonString = JsonUtility.ToJson(cam);
+
+        using (StreamWriter streamWriter = File.CreateText(Path.Combine(Application.persistentDataPath,"Cam.txt")))
+        {
+            streamWriter.Write(jsonString);
+        }
+    }
+    public CameraRemember camLoad()
+    {
+        using (StreamReader streamReader = File.OpenText(Path.Combine(Application.persistentDataPath, "Cam.txt")))
+        {
+            string jsonString = streamReader.ReadToEnd();
+            return JsonUtility.FromJson<CameraRemember>(jsonString);
         }
     }
 }

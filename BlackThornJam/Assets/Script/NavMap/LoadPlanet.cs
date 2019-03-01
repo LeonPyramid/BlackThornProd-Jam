@@ -13,6 +13,7 @@ public class LoadPlanet : MonoBehaviour
     public Color hidden;
     public Color basic;
     public ZoneStade open;
+    public GameObject loadScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,10 +51,13 @@ public class LoadPlanet : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        loadScreen.SetActive(true);
+        FindObjectOfType<MoveCamera>().SavePos();
         if (zone <= open.openArea)
         {
             SceneManager.LoadScene(planetName);
         }
         
     }
+
 }

@@ -27,6 +27,8 @@ public class CreateSavefile : MonoBehaviour
         if (overrideSave) { File.Delete(pathToTest); }
         if (!File.Exists(pathToTest))
         {
+            FindObjectOfType<MoveCamera>().cam.xPos = -11;
+            FindObjectOfType<MoveCamera>().SavePos();
             tutoStat.stat = 0;
             File.Create(pathToTest);
             zone.openArea = 0;

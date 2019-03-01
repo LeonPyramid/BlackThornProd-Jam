@@ -27,6 +27,8 @@ public class GlobalVar : MonoBehaviour
     public int id;
     public PlanetInfo PlanetInfo;
     public DisponibleTool tamp;
+    public int fleau=0;
+    private bool hasBuild;
     void Start()
     {
         if (!File.Exists(Path.Combine(Application.persistentDataPath, SceneManager.GetActiveScene().name + ".txt")))
@@ -83,7 +85,22 @@ public class GlobalVar : MonoBehaviour
             ecologie += build.GetComponent<BuildInfo>().ecologie;
             count += 1;
         }
-        if (social > 2 && argent > 2 && ecologie > 2)
+        if(fleau != 0)
+        {
+            hasBuild = false;
+            foreach (GameObject build in buildable)
+            {
+                if(build.GetComponent<BuildInfo>().id == fleau)
+                {
+                    hasBuild = true;
+                }
+            }
+        }
+        else
+        {
+            hasBuild = true;
+        }
+        if (social > 2 && argent > 2 && ecologie > 2&& hasBuild)
         {
             win = true;
 

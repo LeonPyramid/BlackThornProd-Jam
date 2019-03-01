@@ -109,7 +109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8015938670435814748}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.810852, y: -23.2285, z: 13.428276}
+  m_LocalPosition: {x: 3.810852, y: -23.2285, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6847844182828853977}
@@ -210,6 +210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubble: {fileID: 2468066613573175606}
+  active: 0
+  buildopedia: {fileID: 0}
 --- !u!61 &8015938670435814749
 BoxCollider2D:
   m_ObjectHideFlags: 0
