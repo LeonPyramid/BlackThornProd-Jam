@@ -3668,8 +3668,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 10.62}
-  m_SizeDelta: {x: 3129.41, y: 607.13}
+  m_AnchoredPosition: {x: 0, y: 0.2}
+  m_SizeDelta: {x: 3129.41, y: 815.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3234578001384035908
 CanvasRenderer:
@@ -13718,16 +13718,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13832,6 +13822,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2656330962405439406, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
@@ -13899,16 +13899,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14014,6 +14004,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3935291602704158595, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: param
@@ -14060,16 +14060,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14175,6 +14165,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3935291602704158595, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: param
@@ -14226,16 +14226,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14341,6 +14331,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3935291602704158595, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: param
@@ -14392,16 +14392,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14507,6 +14497,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3935291602704158595, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: param
@@ -14558,16 +14558,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14673,6 +14663,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3935291602704158595, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: param
@@ -14724,16 +14724,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14839,6 +14829,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3935291602704158595, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: param
@@ -14885,16 +14885,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14999,6 +14989,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2656330962405439406, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
@@ -16475,11 +16475,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002587923012}
     m_Modifications:
-    - target: {fileID: 4798539256513131559, guid: 1c966d41b3b62ea4abfe40a61f163603,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioManager
-      objectReference: {fileID: 0}
     - target: {fileID: 2458018927946384136, guid: 1c966d41b3b62ea4abfe40a61f163603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16535,6 +16530,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4798539256513131559, guid: 1c966d41b3b62ea4abfe40a61f163603,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c966d41b3b62ea4abfe40a61f163603, type: 3}
 --- !u!82 &304706475545092833 stripped
@@ -16562,16 +16562,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3234578002979263771}
     m_Modifications:
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_Name
-      value: Button (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7515126330027227344, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16676,6 +16666,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_Name
+      value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045587442512434561, guid: 456fd60b9ef75304d94f0550d6eabfc0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3935291602704158595, guid: 456fd60b9ef75304d94f0550d6eabfc0,
         type: 3}

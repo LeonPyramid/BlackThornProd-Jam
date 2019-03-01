@@ -33,7 +33,7 @@ public class GlobalVar : MonoBehaviour
         {
             string jsonString = JsonUtility.ToJson(PlanetInfo);
 
-            using (StreamWriter streamWriter = File.CreateText(Path.Combine(Application.persistentDataPath, SceneManager.GetActiveScene().name + ".txt"))
+            using (StreamWriter streamWriter = File.CreateText(Path.Combine(Application.persistentDataPath, SceneManager.GetActiveScene().name + ".txt")))
             {
                 streamWriter.Write(jsonString);
             }
