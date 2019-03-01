@@ -753,12 +753,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
-      value: Dllllllllllllllll !
+      value: Drrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
-      value: Dllllllllllllllll !
+      value: Drrrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1027,6 +1027,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1255838cc4e758e46a01140fc54e954f,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1040,17 +1045,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
-      value: Dllllllllllllllll !
+      value: Drrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
-      value: Dllllllllllllllll !
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
+      value: Drrrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1147,6 +1147,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 1255838cc4e758e46a01140fc54e954f,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1160,17 +1165,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
-      value: Dllllllllllllllll !
+      value: Drrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
-      value: Dllllllllllllllll !
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
+      value: Drrrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1498,12 +1498,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
-      value: Dllllllllllllllll !
+      value: Drrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
-      value: Dllllllllllllllll !
+      value: Drrrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1868,12 +1868,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
-      value: Dllllllllllllllll !
+      value: Drrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
-      value: Dllllllllllllllll !
+      value: Drrrrrrrrrrrrrrr !
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}

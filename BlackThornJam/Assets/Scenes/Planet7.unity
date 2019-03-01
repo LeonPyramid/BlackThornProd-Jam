@@ -179,10 +179,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
       objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
       propertyPath: persoHeigh
-      value: 20
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7359659216045622140, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
@@ -749,7 +759,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c6578169b050b814991945b1aa4fb233,
+      objectReference: {fileID: 21300000, guid: b3aeb9ecf7199f448a2d811a61be0c19,
         type: 3}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -951,8 +961,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4545afc7f0351c7429d625956197d460,
+      objectReference: {fileID: 21300000, guid: b3aeb9ecf7199f448a2d811a61be0c19,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -962,11 +977,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: Piracy is ruining our beautiful planet! We need to protect the sea!
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1061,8 +1071,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4545afc7f0351c7429d625956197d460,
+      objectReference: {fileID: 21300000, guid: b3aeb9ecf7199f448a2d811a61be0c19,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1072,11 +1087,6 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: Piracy is ruining our beautiful planet! We need to protect the sea!
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1381,7 +1391,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c6578169b050b814991945b1aa4fb233,
+      objectReference: {fileID: 21300000, guid: b3aeb9ecf7199f448a2d811a61be0c19,
         type: 3}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1735,7 +1745,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c6578169b050b814991945b1aa4fb233,
+      objectReference: {fileID: 21300000, guid: b3aeb9ecf7199f448a2d811a61be0c19,
         type: 3}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}

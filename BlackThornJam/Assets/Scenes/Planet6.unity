@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   well: {fileID: 0}
   bad: {fileID: 21300000, guid: 6837cca16f4ab5e478b3fb298bf7458c, type: 3}
-  buildId: 1
+  buildId: 6
 --- !u!212 &1574622117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1341,7 +1341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   well: {fileID: 0}
   bad: {fileID: 21300000, guid: 6837cca16f4ab5e478b3fb298bf7458c, type: 3}
-  buildId: 1
+  buildId: 6
 --- !u!212 &1715968800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   well: {fileID: 0}
   bad: {fileID: 21300000, guid: 6837cca16f4ab5e478b3fb298bf7458c, type: 3}
-  buildId: 1
+  buildId: 6
 --- !u!212 &1924308871
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1728,6 +1728,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 555073577}
+    - target: {fileID: 4478905903659558824, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edd03c6e44ec92940b18e99cd412494a, type: 3}
 --- !u!1001 &6411607197086914438

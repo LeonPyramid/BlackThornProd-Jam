@@ -406,8 +406,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ebadaa174e056f4ebef89ea6feb4ebd,
+      objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -418,11 +423,6 @@ PrefabInstance:
       propertyPath: dialog.dialog.Array.data[0]
       value: We dug into our planet for minerals. We found a lot of it, but now our
         planet is just a big rock...
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -590,6 +590,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
       objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7359659216045622140, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
       propertyPath: bad
@@ -670,6 +680,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7359659216045622140, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
@@ -989,11 +1009,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
       objectReference: {fileID: 0}
-    - target: {fileID: 3446294428392514020, guid: b58f0ce91d30fc44bbc8eac84a90915f,
-        type: 3}
-      propertyPath: persoHeigh
-      value: 65
-      objectReference: {fileID: 0}
     - target: {fileID: 3446294428392514023, guid: b58f0ce91d30fc44bbc8eac84a90915f,
         type: 3}
       propertyPath: well
@@ -1006,6 +1021,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5d46f955e4675f34c8fca29792506916,
         type: 3}
+    - target: {fileID: 3446294428392514020, guid: b58f0ce91d30fc44bbc8eac84a90915f,
+        type: 3}
+      propertyPath: persoHeigh
+      value: 65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b58f0ce91d30fc44bbc8eac84a90915f, type: 3}
 --- !u!4 &677651162 stripped
@@ -1105,12 +1125,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ebadaa174e056f4ebef89ea6feb4ebd,
+      objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1283,6 +1303,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7359659216045622140, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
@@ -1610,7 +1640,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ebadaa174e056f4ebef89ea6feb4ebd,
+      objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1716,23 +1746,23 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ebadaa174e056f4ebef89ea6feb4ebd,
+      objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: We dug into our planet for minerals. We found a lot of it, but now our
         planet is just a big rock...
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1932,23 +1962,23 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ebadaa174e056f4ebef89ea6feb4ebd,
+      objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.data[0]
       value: We dug into our planet for minerals. We found a lot of it, but now our
         planet is just a big rock...
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -2031,11 +2061,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
       objectReference: {fileID: 0}
-    - target: {fileID: 3446294428392514020, guid: b58f0ce91d30fc44bbc8eac84a90915f,
-        type: 3}
-      propertyPath: persoHeigh
-      value: 65
-      objectReference: {fileID: 0}
     - target: {fileID: 3446294428392514023, guid: b58f0ce91d30fc44bbc8eac84a90915f,
         type: 3}
       propertyPath: well
@@ -2048,6 +2073,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5d46f955e4675f34c8fca29792506916,
         type: 3}
+    - target: {fileID: 3446294428392514020, guid: b58f0ce91d30fc44bbc8eac84a90915f,
+        type: 3}
+      propertyPath: persoHeigh
+      value: 65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b58f0ce91d30fc44bbc8eac84a90915f, type: 3}
 --- !u!1 &1486421619 stripped
@@ -2196,6 +2226,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -92.706
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445965592842271752, guid: e1a9c697701070a43b8ef8c8f57ab2af,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7359659216045622140, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
@@ -2830,7 +2870,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ebadaa174e056f4ebef89ea6feb4ebd,
+      objectReference: {fileID: 21300000, guid: 6d1a26a6190b02842aeb7c2c2ee7de9d,
         type: 3}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}

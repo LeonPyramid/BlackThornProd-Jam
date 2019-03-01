@@ -19,13 +19,13 @@ public class BoatChange : MonoBehaviour
         spriteR = GetComponent<SpriteRenderer>();
         State = false;
         temp = false;
-        get = bad;
+        spriteR.sprite = bad;
         foreach(GameObject build in buildable)
         {
             if (build.GetComponent<BuildInfo>().id == buildId)
             {
                 State = true;
-                get = well;
+                spriteR.sprite = well;
             }
         }
 
@@ -41,7 +41,7 @@ public class BoatChange : MonoBehaviour
             if (build.GetComponent<BuildInfo>().id == buildId)
             {
                 State = true;
-                get = null;
+                get = well;
             }
         }
         if(temp!= State)
@@ -49,7 +49,6 @@ public class BoatChange : MonoBehaviour
             StartCoroutine(ChangeSprite(get));
             temp = State;
         }
-        StartCoroutine(ChangeSprite(get));
     }
     public IEnumerator ChangeSprite(Sprite sprite)
     {

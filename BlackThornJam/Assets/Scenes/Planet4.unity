@@ -830,6 +830,7 @@ MonoBehaviour:
     win: 0
   tamp:
     dispoTools: 
+  fleau: 0
 --- !u!4 &699231096
 Transform:
   m_ObjectHideFlags: 0
@@ -1151,7 +1152,7 @@ PrefabInstance:
     - target: {fileID: 8700201265802741079, guid: e1a9c697701070a43b8ef8c8f57ab2af,
         type: 3}
       propertyPath: persoHeigh
-      value: 32
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1a9c697701070a43b8ef8c8f57ab2af, type: 3}
