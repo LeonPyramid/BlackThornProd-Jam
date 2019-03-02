@@ -16,7 +16,7 @@ GameObject:
   m_Layer: 0
   m_Name: Fireworks
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2800000, guid: ce1f062822bb0a2498c0714565e8b68f, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4790,10 +4790,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 960917c6f27b78d4caefebdfbaa46afd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 822a5de772f4d5644a1cb5de65129bde, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 0.51
+  m_Volume: 0.8
+  m_Pitch: 0.8
   Loop: 0
   Mute: 0
   Spatialize: 0

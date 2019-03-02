@@ -362,8 +362,8 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[4]
-      value: So, if you see people talking about one problem that seems precise, it
-        may be one disaster.
+      value: So if you meet piples talking about one particular problem it might be
+        due to a disaster.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -384,8 +384,8 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[2]
-      value: To solve them you will need to build one peculiar build, which will solve
-        the problem.
+      value: To be solved you need to build some special structure that will improve
+        the disastrous situation
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}

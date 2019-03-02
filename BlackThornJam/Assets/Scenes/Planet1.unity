@@ -2104,14 +2104,14 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[3]
-      value: You will influence those parameters by erecting a lot of kind of builds
-        which have goods and bads effects over the SEW.
+      value: "You will change those parameters by building structures which would
+        have impacts on the SEW\r"
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[4]
-      value: 'But remember, as Lavoisier said: nothing is created, nothing is lost,
-        everything changes. Top one parameter, another will drop.'
+      value: 'But remember, as Lavoisier said: "Nothing is lost, nothing is created,
+        everything is transformed", top a parameter and an other will drop.'
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2127,31 +2127,30 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[2]
-      value: 'They are 3 parameters that are describing the state of a planet , which
-        are the SEW: Society, Ecology and Wealth.'
+      value: They are 3 parameter that describes the planet state, Wich are Society,
+        Ecology and Wealth (SEW for short).
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[5]
-      value: Nevermind, I'm sure it will be okay. First you need to know what are
-        the problems. So you need to talk to the Piples.
+      value: Nevermind, I'm sure it will be okay. First you need to know what the
+        problems are. To do so talk to the Piples.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[6]
-      value: They are the inhabitants of the planets. To talk with them, just click
-        on them.
+      value: They are the planets inhabitants. To talk to them just click on them
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[7]
-      value: Once the problem have been identified, you just have to look arround
-        the planet with your keyboard left and right arrow.
+      value: Once the problem have been identified, you just have to look around the
+        planet with your keyboard left and right arrow.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[8]
-      value: You will find a spot where you can build, just click on it.
+      value: You will find spots where you can click, just click on them
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2173,7 +2172,7 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[12]
-      value: Anyway, when this planet problems will be solved, host come back to the
+      value: Anyway, when this planet problems will be solved,just come back to the
         NavMap and go to the next planet.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,

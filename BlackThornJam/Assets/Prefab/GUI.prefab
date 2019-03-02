@@ -32,7 +32,7 @@ RectTransform:
   m_Father: {fileID: 3030190954229618094}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.40476203}
+  m_AnchorMin: {x: 0, y: 0.4047619}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -2158,8 +2158,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: This is the Capitalism! You can take piple's money! Just for you! They won't
-    like it but, they are wasting it so... Take it! Only you know really how to spare
-    it!
+    like it but, they are wasting it so... Take it! You're the only one that know
+    how to spare all that money !
 --- !u!1 &2079128013203191992
 GameObject:
   m_ObjectHideFlags: 0
@@ -8128,8 +8128,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: With the power of Taylorism you can make more in less time. It generates
-    pollution and piples may be sick but think about how many money you can make with
-    it!
+    pollution and piples may be sick but think about the amount of money you can earn
+    with it !
 --- !u!1 &3293872234299724821
 GameObject:
   m_ObjectHideFlags: 0
@@ -8597,7 +8597,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7333910114877946199}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.595238
+  m_Size: 0.59523803
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -10263,7 +10263,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: It consts a lot, it's ugly, but everyone wants to know what to wear tomorrow.
+  m_Text: It costs a lot, it's ugly, but everyone wants to know what to wear tomorrow.
     With a team of scientists and the money they need, you can study weather and act
     for nature's health!
 --- !u!1 &5578565280006607121

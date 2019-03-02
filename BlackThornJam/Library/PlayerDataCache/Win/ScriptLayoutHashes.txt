@@ -1,6 +1,6 @@
 Win
 PlayerPath?
-D:/Game Design/Unity/Test Build/PlanetCare Inc/PlanetCare Inc.exe
+D:/Game Design/JeuFini/PLanetCare Inc/PlanetCare Inc.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/NavMap.unity
@@ -158,6 +158,7 @@ f964da1f5c3433b30af3f3883c1e4ae6 Assembly-CSharp.dll:.CaracterMove
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SaveFromWorld
 92235192d0a585eb62b9dd7a1e426fa4 Assembly-CSharp.dll:.SetPosAndRot
 e21ffc698b0ad823f774297aeb69a34d Assembly-CSharp.dll:.LoadPages
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ToggleFullscreen
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 d629939825fdb023e17eb7f5f12dcf8d Assembly-CSharp.dll:.FinishedPlanet
 a55cbdb17c63dcb2e1a108ce2b81719d Assembly-CSharp.dll:.PanelCredit
@@ -220,4 +221,3 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 d785712e9003a299d969e63bc21a7a59 Assembly-CSharp.dll:.ResetMenu
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ToggleFullscreen
