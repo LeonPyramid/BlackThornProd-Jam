@@ -1403,6 +1403,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 555073577}
+    - target: {fileID: 8931471114956496824, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3234578002647139316, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1381419231606779152, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -1697,16 +1707,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8931471114956496824, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3234578002647139316, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4332057788253689710, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
@@ -2296,7 +2296,7 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[3]
-      value: Clicl on your NavMap to go to the training planet, I'll then explain
+      value: Click on your NavMap to go to the training planet, I'll then explain
         you what to do
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
