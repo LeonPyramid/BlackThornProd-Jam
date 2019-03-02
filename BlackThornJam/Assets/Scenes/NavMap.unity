@@ -3741,8 +3741,8 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[4]
-      value: To start your training go on the little green planet over there, that's
-        where the fun begins!
+      value: To start your training go on the little green planet over there, this
+        is where the fun begins!
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}

@@ -1103,6 +1103,7 @@ MonoBehaviour:
     win: 0
   tamp:
     dispoTools: 
+  fleau: 0
 --- !u!4 &699231096
 Transform:
   m_ObjectHideFlags: 0
@@ -1268,11 +1269,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 85ec05f56410ef841a089e6e02591b53,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1292,6 +1288,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
       value: Gaga!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814750, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1413,11 +1414,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 85ec05f56410ef841a089e6e02591b53,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -1437,6 +1433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
       value: Gaga!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814750, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -2110,7 +2111,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.dialog.Array.data[4]
       value: 'But remember, as Lavoisier said: nothing is created, nothing is lost,
-        everything changes. Up one parameter, another will down.'
+        everything changes. Top one parameter, another will drop.'
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2120,8 +2121,8 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[1]
-      value: But before that I'll explain to you how to help the people on all of
-        the planets in this system
+      value: But before that I'll explains you how to help the people on all of the
+        planets in this system
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2132,7 +2133,7 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[5]
-      value: Nevermind, I'm sure It will be okay. First you need to know what are
+      value: Nevermind, I'm sure it will be okay. First you need to know what are
         the problems. So you need to talk to the Piples.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
@@ -2144,8 +2145,8 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[7]
-      value: When you have indentified the problems, just go looking arround the planet
-        using left arrow and right arrow.
+      value: Once the problem have been identified, you just have to look arround
+        the planet with your keyboard left and right arrow.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2155,25 +2156,25 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[9]
-      value: Thet it will show you which builds you can put on the map, you have actually
-        the 3 basic builds.
+      value: It will show you the structures you can build on the map, at first they
+        are only three.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[10]
-      value: If you want more informations about your builds, you can go in your Build-O-Pedia,
-        here you will found everything you are looking for.
+      value: For more informations, you can take a look at your Build-O-Pedia, where
+        you can find whatever you could be looking for.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[11]
-      value: They are missing some pages in your book, maybe you will find them later...
+      value: Some pages are missing your book, you may find them later...
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[12]
-      value: Anyway. When you will have solved the issue on this planet, just come
-        back to the NavMap and go to the others planets.
+      value: Anyway, when this planet problems will be solved, host come back to the
+        NavMap and go to the next planet.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2318,11 +2319,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 85ec05f56410ef841a089e6e02591b53,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -2342,6 +2338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
       value: Gaga!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814750, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -2559,11 +2560,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 85ec05f56410ef841a089e6e02591b53,
         type: 3}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814738, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: dialog.dialog.Array.size
@@ -2583,6 +2579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogWin.dialog.Array.data[0]
       value: Gaga!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814750, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}

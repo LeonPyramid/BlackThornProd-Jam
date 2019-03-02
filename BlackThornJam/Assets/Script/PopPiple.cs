@@ -7,7 +7,7 @@ public class PopPiple : MonoBehaviour
     public bool changeable;
     private Sprite well;
     private Sprite bad;
-    private bool State;
+    public bool State;
     public GameObject bubble;
     private GlobalVar global;
     private SpriteRenderer spriteR;
@@ -28,10 +28,16 @@ public class PopPiple : MonoBehaviour
                 State = false;
                 spriteR.sprite = bad;
                 GetComponent<BubleShow>().active = false;
+
+            }
+            else
+            {
+                GetComponent<BubleShow>().active = true;
             }
         }
         else
         {
+            State = true;
             GetComponent<BubleShow>().active = true;
         }
         

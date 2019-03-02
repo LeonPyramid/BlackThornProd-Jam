@@ -89,6 +89,7 @@
     <Compile Include="Assets\Script\Menu\QuitButton.cs" />
     <Compile Include="Assets\Script\Menu\ResetMenu.cs" />
     <Compile Include="Assets\Script\Menu\RotatePlanet.cs" />
+    <Compile Include="Assets\Script\Menu\ToggleFullscreen.cs" />
     <Compile Include="Assets\Script\MenuForPiple.cs" />
     <Compile Include="Assets\Script\NavMap\CameraOnNavMap.cs" />
     <Compile Include="Assets\Script\NavMap\CreateSavefile.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Script\NavMap\GotoMenu.cs" />
     <Compile Include="Assets\Script\NavMap\LoadPlanet.cs" />
     <Compile Include="Assets\Script\NavMap\MoveCamera.cs" />
+    <Compile Include="Assets\Script\PanelCredit.cs" />
     <Compile Include="Assets\Script\Player\CaracterMove.cs" />
     <Compile Include="Assets\Script\PopPiple.cs" />
     <Compile Include="Assets\Script\Save\AntennaChanger.cs" />

@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.9, y: 45, z: -10}
+  m_LocalPosition: {x: 3, y: 44, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -347,12 +347,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 73.5
+      value: 70.600006
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -169.6
+      value: -170.6
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -617,7 +617,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784665565}
   m_LocalRotation: {x: 0, y: 0, z: -0.28908193, w: 0.9573044}
-  m_LocalPosition: {x: 66.4, y: 99.7, z: 0}
+  m_LocalPosition: {x: 63.5, y: 98.7, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -702,7 +702,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937833964}
   m_LocalRotation: {x: -0, y: -0, z: 0.9556596, w: 0.2944737}
-  m_LocalPosition: {x: -26.5, y: -39.2, z: -2.90625}
+  m_LocalPosition: {x: -28.1, y: -38.1, z: -2.90625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -729,12 +729,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 87.2
+      value: 84.3
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -108.6
+      value: -109.6
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1017,12 +1017,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.3
+      value: -6.199997
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -159.5
+      value: -160.5
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1985,12 +1985,12 @@ PrefabInstance:
     - target: {fileID: 6411607197695918662, guid: d785643c91ac1b84bb84bba9b0e4c22b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 48.07
+      value: 47.07
       objectReference: {fileID: 0}
     - target: {fileID: 6411607197695918662, guid: d785643c91ac1b84bb84bba9b0e4c22b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.04
+      value: -1.8600006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d785643c91ac1b84bb84bba9b0e4c22b, type: 3}
@@ -2126,12 +2126,12 @@ PrefabInstance:
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.8
+      value: 29.90001
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -85.4
+      value: -86.4
       objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -2302,7 +2302,7 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[4]
-      value: I will talk with you with Your connected earpod, so don't be affraid
+      value: I will talk with you with your connected earpod, so don't be affraid
         if you're hearing voices.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,

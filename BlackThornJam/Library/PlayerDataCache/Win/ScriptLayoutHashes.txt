@@ -1,6 +1,6 @@
 Win
 PlayerPath?
-D:/Game Design/Unity/Test Build/PLanetCare Inc/PlanetCare Inc.exe
+D:/Game Design/Unity/Test Build/PlanetCare Inc/PlanetCare Inc.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/NavMap.unity
@@ -49,7 +49,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.P
 07933808183c15688f8c2b0ae14f8434 Assembly-CSharp.dll:.TutoDialog
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 f53816a880005299ffbc3499e5e2f62a Assembly-CSharp.dll:.ChangeState1
-df2edc1dbd6c93ca938c8982f6b70ca5 Assembly-CSharp.dll:.PopPiple
+00ae1d6581d263812f377898f39a6b4d Assembly-CSharp.dll:.PopPiple
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -160,6 +160,7 @@ f964da1f5c3433b30af3f3883c1e4ae6 Assembly-CSharp.dll:.CaracterMove
 e21ffc698b0ad823f774297aeb69a34d Assembly-CSharp.dll:.LoadPages
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 d629939825fdb023e17eb7f5f12dcf8d Assembly-CSharp.dll:.FinishedPlanet
+a55cbdb17c63dcb2e1a108ce2b81719d Assembly-CSharp.dll:.PanelCredit
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
@@ -219,3 +220,4 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 d785712e9003a299d969e63bc21a7a59 Assembly-CSharp.dll:.ResetMenu
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ToggleFullscreen
