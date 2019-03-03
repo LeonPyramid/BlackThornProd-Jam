@@ -18,6 +18,7 @@ public class BuildInfo : MonoBehaviour
     {
         if (!choiceMenu.active)
         {
+            GetComponent<AudioSource>().Play();
             StartCoroutine(launchDelay());
         }
        
