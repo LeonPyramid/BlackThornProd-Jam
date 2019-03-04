@@ -415,7 +415,7 @@ PrefabInstance:
     - target: {fileID: 892410169365291230, guid: 4cb240b32fcc25844a4f822d102c28d2,
         type: 3}
       propertyPath: persoHeigh
-      value: 15.5
+      value: 14.5
       objectReference: {fileID: 0}
     - target: {fileID: 892410169365291218, guid: 4cb240b32fcc25844a4f822d102c28d2,
         type: 3}
@@ -1622,7 +1622,7 @@ PrefabInstance:
     - target: {fileID: 892410169365291230, guid: 4cb240b32fcc25844a4f822d102c28d2,
         type: 3}
       propertyPath: persoHeigh
-      value: 15.5
+      value: 14.5
       objectReference: {fileID: 0}
     - target: {fileID: 892410169365291218, guid: 4cb240b32fcc25844a4f822d102c28d2,
         type: 3}
@@ -1922,7 +1922,7 @@ PrefabInstance:
     - target: {fileID: 892410169365291230, guid: 4cb240b32fcc25844a4f822d102c28d2,
         type: 3}
       propertyPath: persoHeigh
-      value: 15.5
+      value: 14.5
       objectReference: {fileID: 0}
     - target: {fileID: 892410169365291218, guid: 4cb240b32fcc25844a4f822d102c28d2,
         type: 3}

@@ -667,6 +667,56 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3234578001840974099, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089833485408837307, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPointerDown
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edd03c6e44ec92940b18e99cd412494a, type: 3}
 --- !u!4 &494727560 stripped
@@ -2191,6 +2241,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5967192440219986836, guid: 636a6b761b44a4c4aa28972db1ff244a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 636a6b761b44a4c4aa28972db1ff244a, type: 3}
 --- !u!114 &1705774254 stripped
@@ -2598,6 +2653,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4798539256513131559, guid: 1c966d41b3b62ea4abfe40a61f163603,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
     - target: {fileID: 2458018927946384136, guid: 1c966d41b3b62ea4abfe40a61f163603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2652,11 +2712,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798539256513131559, guid: 1c966d41b3b62ea4abfe40a61f163603,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c966d41b3b62ea4abfe40a61f163603, type: 3}
@@ -2745,7 +2800,17 @@ PrefabInstance:
     - target: {fileID: 892410169927028519, guid: 4cb240b32fcc25844a4f822d102c28d2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 892410169927028519, guid: 4cb240b32fcc25844a4f822d102c28d2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 892410169365291229, guid: 4cb240b32fcc25844a4f822d102c28d2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cb240b32fcc25844a4f822d102c28d2, type: 3}

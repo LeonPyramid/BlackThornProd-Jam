@@ -7,8 +7,12 @@ public class MoveCamera : MonoBehaviour
 {
     public float force;
     public CameraRemember cam;
+    public GameObject left;
+    public GameObject right;
     void Start()
     {
+        left = GameObject.Find("Left");
+        right = GameObject.Find("Right");
         if(File.Exists(Path.Combine(Application.persistentDataPath, "Cam.txt")))
         {
             transform.position = new Vector3(camLoad().xPos, transform.position.y, transform.position.z);
@@ -17,7 +21,7 @@ public class MoveCamera : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.x > -11&&(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)))
+        if (transform.position.x > -11 && (left.GetComponent<MoveScript>().move))
         {
             transform.position = new Vector3(transform.position.x - force, transform.position.y,transform.position.z);
         }
@@ -25,7 +29,7 @@ public class MoveCamera : MonoBehaviour
         {
             transform.position = new Vector3(-11, transform.position.y,transform.position.z);
         }
-        if (transform.position.x < 431 && (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)))
+        if (transform.position.x < 431 && (right.GetComponent<MoveScript>().move))
         {
             transform.position = new Vector3(transform.position.x + force, transform.position.y, transform.position.z);
         }

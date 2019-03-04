@@ -15,12 +15,16 @@ public class CaracterMove : MonoBehaviour
     private float timer;
     public float jumpTime;
     public AudioSource m_JumpStream;
+    public GameObject right;
+    public GameObject left;
     // Start is called before the first frame update
     void Start()
     {
         scale = transform.localScale.y;
         rigidbodyp = this.GetComponent<Rigidbody2D>();
         planet = GameObject.FindGameObjectWithTag("planet");
+        right = GameObject.Find("Right");
+        left = GameObject.Find("Left");
     }
 
     // Update is called once per frame
@@ -31,13 +35,13 @@ public class CaracterMove : MonoBehaviour
         direction = direction.normalized;
         angle = direction.y > 0 ? Mathf.Acos((float)direction.x) * 180f / 3.14159265359f -90f: - (Mathf.Acos((float)direction.x) * 180f / 3.14159265359f) + 360f-90f;
         transform.eulerAngles = new Vector3(0, 0, angle);
-        if ((Input.GetKey(KeyCode.LeftArrow)||Input.GetKey(KeyCode.A))&&contact)
+        if (left.GetComponent<MoveScript>().move&&contact)
         {
             rigidbodyp.AddForce(new Vector2(10000f*(direction.x-direction.y*0.5f),10000f*(direction.y+direction.x*0.5f)));
             m_JumpStream.Play();
             contact = false;
         }
-        if ((Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) && contact)
+        if (right.GetComponent<MoveScript>().move && contact)
         {
             rigidbodyp.AddForce(new Vector2(10000f * (direction.x + direction.y*0.5f), 10000f * (direction.y - direction.x*0.5f)));
             m_JumpStream.Play();

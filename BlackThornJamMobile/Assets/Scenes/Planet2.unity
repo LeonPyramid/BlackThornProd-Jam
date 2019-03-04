@@ -959,6 +959,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4798539256513131559, guid: 1c966d41b3b62ea4abfe40a61f163603,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
     - target: {fileID: 2458018927946384136, guid: 1c966d41b3b62ea4abfe40a61f163603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1013,11 +1018,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4798539256513131559, guid: 1c966d41b3b62ea4abfe40a61f163603,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c966d41b3b62ea4abfe40a61f163603, type: 3}
@@ -2017,25 +2017,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -25.807001
       objectReference: {fileID: 0}
-    - target: {fileID: 892410169365291230, guid: 4cb240b32fcc25844a4f822d102c28d2,
-        type: 3}
-      propertyPath: persoHeigh
-      value: 14
-      objectReference: {fileID: 0}
     - target: {fileID: 892410169365291218, guid: 4cb240b32fcc25844a4f822d102c28d2,
         type: 3}
       propertyPath: choiceMenu
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 892410169927028519, guid: 4cb240b32fcc25844a4f822d102c28d2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 892410169927028519, guid: 4cb240b32fcc25844a4f822d102c28d2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cb240b32fcc25844a4f822d102c28d2, type: 3}

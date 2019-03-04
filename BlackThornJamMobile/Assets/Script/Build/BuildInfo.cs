@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class BuildInfo : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class BuildInfo : MonoBehaviour
     }
     public void OnMouseDown()
     {
-        if (!choiceMenu.active)
+        if (!choiceMenu.active&& !EventSystem.current.IsPointerOverGameObject())
         {
             GetComponent<AudioSource>().Play();
             StartCoroutine(launchDelay());

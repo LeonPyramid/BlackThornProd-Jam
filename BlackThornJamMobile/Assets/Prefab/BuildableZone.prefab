@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 892410169365291231}
   - component: {fileID: 892410169365291230}
   - component: {fileID: 892410169365291225}
-  - component: {fileID: 892410169365291229}
   - component: {fileID: 892410169365291218}
   - component: {fileID: 726087688318971683}
   - component: {fileID: 2407593245571847742}
@@ -76,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3dd5455dbb58bf4c9ea55ffa0ee5394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  persoHeigh: 0
+  persoHeigh: 15.5
 --- !u!212 &892410169365291225
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -125,19 +124,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &892410169365291229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 892410169365291224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ade138412df86449bbeecb1c53eac76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  halo: {fileID: 892410169927028518}
 --- !u!114 &892410169365291218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,8 +275,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892410169927028518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 892410169365291228}
   m_RootOrder: 0

@@ -18,6 +18,7 @@ public class GotoNavmap : MonoBehaviour
     }
     public void load()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("NavMap");
     }
 

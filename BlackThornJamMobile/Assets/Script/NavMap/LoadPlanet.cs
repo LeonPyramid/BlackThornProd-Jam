@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 using System.IO;
 
 public class LoadPlanet : MonoBehaviour
@@ -51,7 +52,7 @@ public class LoadPlanet : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if (zone <= open.openArea)
+        if (zone <= open.openArea&& !EventSystem.current.IsPointerOverGameObject())
 
         {
             loadScreen.SetActive(true);
