@@ -27,6 +27,7 @@ Assets/Scenes/Planet19.unity
 Assets/Scenes/Planet20.unity
 Assets/Scenes/Planet21.unity
 Assets/Scenes/Planet22.unity
+Assets/Scenes/Planet23.unity
 SceneListEnd?
 021a6341b210b301f8ac4aa87cd6f307 Assembly-CSharp.dll:.DialogList
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -222,3 +223,6 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 d785712e9003a299d969e63bc21a7a59 Assembly-CSharp.dll:.ResetMenu
+129562d937cb6f0f1da4a438821d4d9d Assembly-CSharp.dll:.EasterEgg
+fd8947fc0638f00f13f69b31c56b0140 Assembly-CSharp.dll:.DialogSecretTrigger
+5a4f4e97a203dc2969b4d7eade659624 Assembly-CSharp.dll:.EasterEggPlanet

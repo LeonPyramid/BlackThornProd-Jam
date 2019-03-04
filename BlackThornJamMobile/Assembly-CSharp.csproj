@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EasterEggPlanet.cs" />
     <Compile Include="Assets\Script\ActiveButton.cs" />
     <Compile Include="Assets\Script\BoatChange.cs" />
     <Compile Include="Assets\Script\BubleShow.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Script\Dialog\DialogList.cs" />
     <Compile Include="Assets\Script\Dialog\DialogManager.cs" />
     <Compile Include="Assets\Script\Dialog\DialogTrigger.cs" />
+    <Compile Include="Assets\Script\DialogSecretTrigger.cs" />
     <Compile Include="Assets\Script\FollowPlayer.cs" />
     <Compile Include="Assets\Script\Forcer.cs" />
     <Compile Include="Assets\Script\GlobalScript\GlobalVar.cs" />
@@ -94,6 +96,7 @@
     <Compile Include="Assets\Script\MoveScript.cs" />
     <Compile Include="Assets\Script\NavMap\CameraOnNavMap.cs" />
     <Compile Include="Assets\Script\NavMap\CreateSavefile.cs" />
+    <Compile Include="Assets\Script\NavMap\EasterEgg.cs" />
     <Compile Include="Assets\Script\NavMap\FinishedPlanet.cs" />
     <Compile Include="Assets\Script\NavMap\GotoMenu.cs" />
     <Compile Include="Assets\Script\NavMap\LoadPlanet.cs" />
@@ -110,19 +113,19 @@
     <Compile Include="Assets\Script\TutoDialog.cs" />
     <Compile Include="Assets\Script\TutoStat.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Game Design/GitHub/BlackThornMobile/BlackThornJamMobile/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJamMobile/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Game Design/GitHub/BlackThornMobile/BlackThornJamMobile/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJamMobile/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Game Design/GitHub/BlackThornMobile/BlackThornJamMobile/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJamMobile/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Game Design/GitHub/BlackThornMobile/BlackThornJamMobile/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJamMobile/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Game Design/GitHub/BlackThornMobile/BlackThornJamMobile/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJamMobile/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/2018.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -323,13 +326,13 @@
       <HintPath>D:/Program Files/Unity/2018.3.6f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Game Design/GitHub/BlackThornMobile/BlackThornJamMobile/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJamMobile/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Game Design/GitHub/BlackThornMobile/BlackThornJamMobile/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJamMobile/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Game Design/GitHub/BlackThornMobile/BlackThornJamMobile/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Game Design/GitHub/BlackThornProd-Jam/BlackThornJamMobile/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Program Files/Unity/2018.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

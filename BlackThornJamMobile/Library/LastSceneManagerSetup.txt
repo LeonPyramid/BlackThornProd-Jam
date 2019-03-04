@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Planet22.unity
+- path: Assets/Scenes/NavMap.unity
   isLoaded: 1
   isActive: 1
