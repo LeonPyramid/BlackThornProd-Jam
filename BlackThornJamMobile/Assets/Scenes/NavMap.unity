@@ -4128,7 +4128,7 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[3]
-      value: You can move on the NavMap using your keyboard left and right arrow
+      value: You can move on the NavMap using the left and right arrows on your screen.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -4139,18 +4139,18 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[1]
-      value: It's incomplete for now becase of the cheap antenna we have...
+      value: It's incomplete for now because of our low quality antenna.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[2]
-      value: But if you do your missions we will be able to upgrade it, so we will
-        extand our known universe
+      value: But if you do your missions, we'll be able to upgrade it, so we will
+        expand our known universe
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[4]
-      value: To start your training go on the little green planet over there, this
+      value: To start your training go on the little green planet with the tree, this
         is where the fun begins!
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
