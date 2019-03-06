@@ -224,12 +224,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5251859}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &174520486 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
-    type: 3}
-  m_PrefabInstance: {fileID: 802020259}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &482249013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -246,6 +240,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3234578001840974099, guid: edd03c6e44ec92940b18e99cd412494a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3234578002587923012, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
@@ -366,7 +365,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 555073577}
+      objectReference: {fileID: 0}
     - target: {fileID: 3234578001751430571, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -667,11 +666,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3234578001840974099, guid: edd03c6e44ec92940b18e99cd412494a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5263927084327520632, guid: edd03c6e44ec92940b18e99cd412494a,
         type: 3}
       propertyPath: m_Colors.m_PressedColor.r
@@ -719,12 +713,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edd03c6e44ec92940b18e99cd412494a, type: 3}
---- !u!4 &494727560 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
-    type: 3}
-  m_PrefabInstance: {fileID: 2093694601}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,121 +887,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &555073574
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 555073576}
-  - component: {fileID: 555073575}
-  - component: {fileID: 555073577}
-  - component: {fileID: 555073578}
-  m_Layer: 0
-  m_Name: PipleList
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &555073575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555073574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 046933d3fecaa1743894a07dfd7288f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  socialBas:
-    dialog:
-    - My neighbour is acting weird. I may call the Police...
-    - My boss is breaking me down at work, I must be doomed.
-    - Nobody comes when i'm calling for help. This planet is full of sellfish people...
-    - It's been a while since my brother had called me, I miss him.
-    - Everybody is on his phone, we don't talk anymore on this planet.
-  ecoBas:
-    dialog:
-    - Last month they were a tree in my garden, now there is only Dirt.
-    - Don't touch the water, it's poisoned!
-    - Have you ever seen a cow with three eyes? Because I do!
-    - This winter was as hot as last summer....
-    - Nah, I don't think it matters if we throw gazoline in the ocean.
-  argentBas:
-    dialog:
-    - Do you have money? I'm so hungry and poor...
-    - We will have to tighten our belt again this month, I don't win ennough money
-      anymore.
-    - I will give everything for a good lunch...
-    - I will have to sell my 4k TV, what a shame.
-    - '2...3...4...5 dollard! I''m so rich!!
-
-'
-  toutOk:
-    dialog:
-    - What a nice day.
-    - Tomorrow I will go to the beach with my friends!
-    - I found a piece of wood, I think I will carve it.
-    - The butterfly are flying, the people are walking, this planet is sutch a quiet
-      place.
-    - Can you feel the wind in your hair?
-    - Look! Look! I'm so proud of my voice!!
-    - What a nice girl you are, thank you for everything!
-    - I made an apple pie, do you want a piece?
-    - This is my planet, and I love it!
-    - Do you think it will rain tomorrow?
---- !u!4 &555073576
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555073574}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.810852, y: 132.2285, z: -20.803276}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 876689000}
-  - {fileID: 1027974211}
-  - {fileID: 494727560}
-  - {fileID: 174520486}
-  - {fileID: 1417594117}
-  - {fileID: 1813896408}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &555073577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555073574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e0d39a94c0d9c541be235b468695cf7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialog: {fileID: 1705774254}
-  dialogBox: {fileID: 1158584460}
---- !u!114 &555073578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555073574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2a64b7d3e0d2b846b8d56dd04832909, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  menu: {fileID: 1521657848}
 --- !u!1001 &579050026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1211,7 +1084,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 555073576}
+    m_TransformParent: {fileID: 1733021883}
     m_Modifications:
     - target: {fileID: 8015938670435814748, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1339,15 +1212,15 @@ PrefabInstance:
       propertyPath: dialogWin.dialog.Array.data[0]
       value: Gaga!
       objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814750, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: persoHeigh
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -1356,7 +1229,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 555073576}
+    m_TransformParent: {fileID: 1733021883}
     m_Modifications:
     - target: {fileID: 8015938670435814748, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1484,24 +1357,18 @@ PrefabInstance:
       propertyPath: dialogWin.dialog.Array.data[0]
       value: Gaga!
       objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814750, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: persoHeigh
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
---- !u!4 &876689000 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
-    type: 3}
-  m_PrefabInstance: {fileID: 8015938670238759736}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &900808794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1630,24 +1497,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1027974211 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
-    type: 3}
-  m_PrefabInstance: {fileID: 1163129335}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1158584460 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3234578001840974099, guid: edd03c6e44ec92940b18e99cd412494a,
-    type: 3}
-  m_PrefabInstance: {fileID: 482249013}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1163129335
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 555073576}
+    m_TransformParent: {fileID: 1733021883}
     m_Modifications:
     - target: {fileID: 8015938670435814748, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -1838,12 +1693,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1417594117 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
-    type: 3}
-  m_PrefabInstance: {fileID: 1794558143}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1500261621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1955,12 +1804,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3760195893372882034, guid: c6d5307eccc5cc047811908f1eca47c3,
     type: 3}
   m_PrefabInstance: {fileID: 1500261621}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1521657848 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3234578001917991326, guid: edd03c6e44ec92940b18e99cd412494a,
-    type: 3}
-  m_PrefabInstance: {fileID: 482249013}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1577396586
 PrefabInstance:
@@ -2144,7 +1987,7 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.size
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2154,8 +1997,8 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[3]
-      value: "You will change those parameters by building structures which would
-        have impacts on the SEW\r"
+      value: "You will change these parameters by building structures that would have
+        impacts on the SEW\r"
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2171,59 +2014,60 @@ PrefabInstance:
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[1]
-      value: But before that I'll explains you how to help the people on all of the
+      value: But before that I'll explain you how to help the people on all of the
         planets in this system
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[2]
-      value: They are 3 parameter that describes the planet state, Wich are Society,
+      value: There are 3 parameter that describes the planet's state, that are Society,
         Ecology and Wealth (SEW for short).
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[5]
-      value: Nevermind, I'm sure it will be okay. First you need to know what the
-        problems are. To do so talk to the Piples.
+      value: Nevermind, I'm sure it will be okay. First you need to identify the problem.
+        Talk to the Piples to find their needs.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[6]
-      value: They are the planets inhabitants. To talk to them just click on them
+      value: Piples are the planets inhabitants. To talk to them just click on them.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[7]
       value: Once the problem have been identified, you just have to look around the
-        planet with your keyboard left and right arrow.
+        planet with left and right arrows on your screen.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[8]
-      value: You will find spots where you can click, just click on them
+      value: You will find green spots where you can click to show the structures
+        that you can build, you will unlock more buildings later.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[9]
-      value: It will show you the structures you can build on the map, at first they
-        are only three.
-      objectReference: {fileID: 0}
-    - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
-        type: 3}
-      propertyPath: dialog.dialog.Array.data[10]
       value: For more informations, you can take a look at your Build-O-Pedia, where
         you can find whatever you could be looking for.
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
+      propertyPath: dialog.dialog.Array.data[10]
+      value: Anyway, when this planet's problems are solved,just come back to the
+        NavMap and go to the next planet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
+        type: 3}
       propertyPath: dialog.dialog.Array.data[11]
-      value: Some pages are missing your book, you may find them later...
+      value: May the power of your builds be with you!
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
       propertyPath: dialog.dialog.Array.data[12]
-      value: Anyway, when this planet problems will be solved,just come back to the
-        NavMap and go to the next planet.
+      value: I don't think you need my help anymore, so good luck, and may the power
+        of your builds be with you!
       objectReference: {fileID: 0}
     - target: {fileID: 2606171488707141622, guid: 636a6b761b44a4c4aa28972db1ff244a,
         type: 3}
@@ -2248,24 +2092,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 636a6b761b44a4c4aa28972db1ff244a, type: 3}
---- !u!114 &1705774254 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3234578001384035911, guid: edd03c6e44ec92940b18e99cd412494a,
+--- !u!1001 &1733021882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4497988838757739328, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_Name
+      value: PipleList
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.810852
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 132.2285
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.803276
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16e6d25768d578f4295922874ed62d75, type: 3}
+--- !u!4 &1733021883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4497988838757739342, guid: 16e6d25768d578f4295922874ed62d75,
     type: 3}
-  m_PrefabInstance: {fileID: 482249013}
+  m_PrefabInstance: {fileID: 1733021882}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1794558143
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 555073576}
+    m_TransformParent: {fileID: 1733021883}
     m_Modifications:
     - target: {fileID: 8015938670435814748, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -2393,24 +2300,18 @@ PrefabInstance:
       propertyPath: dialogWin.dialog.Array.data[0]
       value: Gaga!
       objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814750, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: persoHeigh
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
---- !u!4 &1813896408 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8015938670435814736, guid: 34d2d4dad00e5bd44a670772c270a633,
-    type: 3}
-  m_PrefabInstance: {fileID: 804090608}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1819979111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2506,7 +2407,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 555073576}
+    m_TransformParent: {fileID: 1733021883}
     m_Modifications:
     - target: {fileID: 8015938670435814748, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
@@ -2634,15 +2535,15 @@ PrefabInstance:
       propertyPath: dialogWin.dialog.Array.data[0]
       value: Gaga!
       objectReference: {fileID: 0}
-    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
-        type: 3}
-      propertyPath: changeable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8015938670435814750, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
       propertyPath: persoHeigh
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982560060590049298, guid: 34d2d4dad00e5bd44a670772c270a633,
+        type: 3}
+      propertyPath: changeable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34d2d4dad00e5bd44a670772c270a633, type: 3}
@@ -2653,11 +2554,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4798539256513131559, guid: 1c966d41b3b62ea4abfe40a61f163603,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioManager
-      objectReference: {fileID: 0}
     - target: {fileID: 2458018927946384136, guid: 1c966d41b3b62ea4abfe40a61f163603,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2712,6 +2608,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4798539256513131559, guid: 1c966d41b3b62ea4abfe40a61f163603,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c966d41b3b62ea4abfe40a61f163603, type: 3}
@@ -3173,7 +3074,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 555073576}
+    m_TransformParent: {fileID: 1733021883}
     m_Modifications:
     - target: {fileID: 8015938670435814748, guid: 34d2d4dad00e5bd44a670772c270a633,
         type: 3}
