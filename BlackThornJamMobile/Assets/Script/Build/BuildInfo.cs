@@ -17,9 +17,12 @@ public class BuildInfo : MonoBehaviour
     }
     public void OnMouseDown()
     {
-        if (!choiceMenu.active&& !EventSystem.current.IsPointerOverGameObject())
+        if (!choiceMenu.active&& !IsPointerOverUIObject())
         {
-            GetComponent<AudioSource>().Play();
+            if(FindObjectOfType<SetSoundActive>().LoadOptions().soundActive)
+            {
+                GetComponent<AudioSource>().Play();
+            }
             StartCoroutine(launchDelay());
         }
        
@@ -30,5 +33,12 @@ public class BuildInfo : MonoBehaviour
         choiceMenu.SetActive(true);
         choiceMenu.GetComponent<BuildNumber>().build = this.gameObject;
     }
-
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
+    }
 }

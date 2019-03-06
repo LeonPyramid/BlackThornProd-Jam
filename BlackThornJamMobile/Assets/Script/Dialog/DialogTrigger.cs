@@ -13,6 +13,7 @@ public class DialogTrigger : MonoBehaviour
     private int random;
     public GameObject menu;
     private GlobalVar global;
+    public AudioSource son;
     private void Start()
     {
         menu = FindObjectOfType<MenuForPiple>().menu;
@@ -20,41 +21,43 @@ public class DialogTrigger : MonoBehaviour
     }
     public void OnMouseDown()
     {
-        if (!menu.active&&GetComponent<PopPiple>().State)
+        if (!menu.active&&GetComponent<PopPiple>().State&&!IsPointerOverUIObject())
         {
-            
-          if(!EventSystem.current.IsPointerOverGameObject())
+
+            if(FindObjectOfType<SetSoundActive>().LoadOptions().soundActive)
             {
-               if (global.win)
-                {
+                son.Play();
+            }
+            if (global.win)
+            {
                 
-                    if (dialogWin.dialog.Length == 0)
-                    {
-                        randDialogList = FindObjectOfType<DialogList>().DialogChoice();
-                        random = Random.Range(0, randDialogList.dialog.Length);
-                        randDialog.dialog[0] = randDialogList.dialog[random];
-                        TriggerDialog(randDialog);
-                    }
-                    else
-                    {
-                        TriggerDialog(dialogWin);
-                    }
+                if (dialogWin.dialog.Length == 0)
+                {
+                    randDialogList = FindObjectOfType<DialogList>().DialogChoice();
+                    random = Random.Range(0, randDialogList.dialog.Length);
+                    randDialog.dialog[0] = randDialogList.dialog[random];
+                    TriggerDialog(randDialog);
                 }
                 else
                 {
-                    if (dialog.dialog.Length == 0)
-                    {
-                        randDialogList = FindObjectOfType<DialogList>().DialogChoice();
-                        random = Random.Range(0, randDialogList.dialog.Length);
-                        randDialog.dialog[0] = randDialogList.dialog[random];
-                        TriggerDialog(randDialog);
-                    }
-                    else
-                    {
-                        TriggerDialog(dialog);
-                    }
+                    TriggerDialog(dialogWin);
                 }
             }
+            else
+            {
+                if (dialog.dialog.Length == 0)
+                {
+                    randDialogList = FindObjectOfType<DialogList>().DialogChoice();
+                    random = Random.Range(0, randDialogList.dialog.Length);
+                    randDialog.dialog[0] = randDialogList.dialog[random];
+                    TriggerDialog(randDialog);
+                }
+                else
+                {
+                    TriggerDialog(dialog);
+                }
+            }
+           
  
                 
             
@@ -66,5 +69,13 @@ public class DialogTrigger : MonoBehaviour
     {
         Debug.Log(dialog);
         FindObjectOfType<DialogManager>().StartDialog(dialog);
+    }
+    private bool IsPointerOverUIObject()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
     }
 }

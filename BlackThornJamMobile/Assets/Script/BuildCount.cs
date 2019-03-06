@@ -9,6 +9,7 @@ public class BuildCount : MonoBehaviour
     public Text y;
     private int countx;
     private int county;
+    public GameObject Check;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,5 +33,6 @@ public class BuildCount : MonoBehaviour
             }
         }
         x.text = countx.ToString();
+        Check.SetActive(FindObjectOfType<GlobalVar>().win);
     }
 }

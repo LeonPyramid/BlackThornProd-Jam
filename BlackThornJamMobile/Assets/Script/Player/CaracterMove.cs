@@ -38,13 +38,20 @@ public class CaracterMove : MonoBehaviour
         if (left.GetComponent<MoveScript>().move&&contact)
         {
             rigidbodyp.AddForce(new Vector2(10000f*(direction.x-direction.y*0.5f),10000f*(direction.y+direction.x*0.5f)));
-            m_JumpStream.Play();
+            if (FindObjectOfType<SetSoundActive>().LoadOptions().soundActive)
+            {
+                m_JumpStream.Play();
+            }
             contact = false;
         }
         if (right.GetComponent<MoveScript>().move && contact)
         {
             rigidbodyp.AddForce(new Vector2(10000f * (direction.x + direction.y*0.5f), 10000f * (direction.y - direction.x*0.5f)));
-            m_JumpStream.Play();
+            if (FindObjectOfType<SetSoundActive>().LoadOptions().soundActive)
+            {
+                m_JumpStream.Play();
+            }
+            
             contact = false;
         }
         if (!contact&&contact!=contactVerif)

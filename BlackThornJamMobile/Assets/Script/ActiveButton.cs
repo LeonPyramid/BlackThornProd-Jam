@@ -5,6 +5,7 @@ using UnityEngine;
 public class ActiveButton : MonoBehaviour
 {
     public GameObject[] bouttons;
+    public AudioSource boutonSon;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,10 @@ public class ActiveButton : MonoBehaviour
     }
     public void ActiveButtons()
     {
+        if (FindObjectOfType<SetSoundActive>().LoadOptions().soundActive)
+        {
+            boutonSon.Play();
+        }
         int count = 1;
         foreach(GameObject bout in bouttons)
         {

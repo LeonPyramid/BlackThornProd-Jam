@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7880731033078222690}
   - component: {fileID: 6787515389431750012}
+  - component: {fileID: 5975214976479491744}
   - component: {fileID: 7880731033078222688}
   - component: {fileID: 7880731033078222691}
   - component: {fileID: 856409238602793812}
@@ -47,6 +48,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   persoHeigh: 50
+--- !u!114 &5975214976479491744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7880731033078222693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b96c07e153cc66042a5f34faa1f1a204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &7880731033078222688
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4791,7 +4804,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 822a5de772f4d5644a1cb5de65129bde, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.8
   m_Pitch: 0.8
   Loop: 0

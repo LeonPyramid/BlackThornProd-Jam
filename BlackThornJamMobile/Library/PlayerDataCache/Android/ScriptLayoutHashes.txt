@@ -31,7 +31,7 @@ Assets/Scenes/Planet24.unity
 SceneListEnd?
 021a6341b210b301f8ac4aa87cd6f307 Assembly-CSharp.dll:.DialogList
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
-e412013f424200fa204e8483545bde33 Assembly-CSharp.dll:.DialogTrigger
+228d8b1ca478380d2925bc1ee512b3d6 Assembly-CSharp.dll:.DialogTrigger
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.QuitButton
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FollowPlayer
@@ -151,7 +151,7 @@ fd8947fc0638f00f13f69b31c56b0140 Assembly-CSharp.dll:.DialogSecretTrigger
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GotoMenu
 1c7291225c802d2df74ac31d2116bd4b Assembly-CSharp.dll:.CameraOnNavMap
 c72607e62a280d41c89ab63c8db4ea2a Assembly-CSharp.dll:.ActivateHalo
-42ccd70a87c79290bb11fea2160182a4 Assembly-CSharp.dll:.ActiveButton
+27eb73aab9fc297449e916355e6f9dd3 Assembly-CSharp.dll:.ActiveButton
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GotoNavmap
@@ -219,10 +219,14 @@ f53816a880005299ffbc3499e5e2f62a Assembly-CSharp.dll:.ChangeState
 35ec97400fd57993e189a9a878318af3 Assembly-CSharp.dll:.MenuForPiple
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ZoneLoader
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
-51d4856b6593e383b32656cae6503c8a Assembly-CSharp.dll:.BuildCount
-78c5852fe5d6c897dbe949d7e549ce95 Assembly-CSharp.dll:.MoveScript
+772a6ceb65bb645c69227e3c351e3fef Assembly-CSharp.dll:.BuildCount
+0d5c368a2d6060794f391196df16dbae Assembly-CSharp.dll:.MoveScript
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
-16d8f8d0325c78f220cbb6475f59ef68 Assembly-CSharp.dll:.LoadPlanet
+6e0075d452a4b14f0380011faefece37 Assembly-CSharp.dll:.LoadPlanet
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 d785712e9003a299d969e63bc21a7a59 Assembly-CSharp.dll:.ResetMenu
+43b82bba805e61059c7d23b45ae37308 Assembly-CSharp.dll:.OptionSaver
+0bf38ff46b8b3256e66a09e805d8a2ce Assembly-CSharp.dll:.SetSoundActive
+c96859995607d646561cbeaa3ff11a35 Assembly-CSharp.dll:.BoutonQuiFaitCHier
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SoundDesactivateFireworks

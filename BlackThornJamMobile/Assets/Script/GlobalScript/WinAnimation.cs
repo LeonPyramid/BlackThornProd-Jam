@@ -61,7 +61,8 @@ public class WinAnimation : MonoBehaviour
     }
     public IEnumerator Generator ( float range)
     {
-        GetComponent<AudioSource>().Play();
+        if (FindObjectOfType<SetSoundActive>().LoadOptions().soundActive)
+        { GetComponent<AudioSource>().Play(); }
         GenerateFireworks(range);
         float time = Random.Range(0.1f, 0.5f);
         yield return new WaitForSeconds(time);
