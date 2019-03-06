@@ -15,9 +15,11 @@ public class LoadPlanet : MonoBehaviour
     public Color basic;
     public ZoneStade open;
     public GameObject loadScreen;
+    public MoveScript[] UIbutton;
     // Start is called before the first frame update
     void Start()
     {
+        UIbutton = FindObjectsOfType<MoveScript>();
         open = LoadZone();
         basic = GetComponent<SpriteRenderer>().color;
         planetName = "Planet" + planetNum.ToString();
@@ -52,7 +54,16 @@ public class LoadPlanet : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if (zone <= open.openArea&& !EventSystem.current.IsPointerOverGameObject())
+        bool test = false;
+        foreach(MoveScript move in UIbutton)
+        {
+            if (move.UIblock)
+            {
+                test = true;
+                Debug.Log("BLockUI");
+            }
+        }
+        if (zone <= open.openArea && !test)
 
         {
             loadScreen.SetActive(true);

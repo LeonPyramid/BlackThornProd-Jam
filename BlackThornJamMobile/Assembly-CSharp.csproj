@@ -61,7 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EasterEggPlanet.cs" />
     <Compile Include="Assets\Script\ActiveButton.cs" />
     <Compile Include="Assets\Script\BoatChange.cs" />
     <Compile Include="Assets\Script\BubleShow.cs" />
@@ -81,6 +80,7 @@
     <Compile Include="Assets\Script\Dialog\DialogManager.cs" />
     <Compile Include="Assets\Script\Dialog\DialogTrigger.cs" />
     <Compile Include="Assets\Script\DialogSecretTrigger.cs" />
+    <Compile Include="Assets\Script\EasterEggPlanet.cs" />
     <Compile Include="Assets\Script\FollowPlayer.cs" />
     <Compile Include="Assets\Script\Forcer.cs" />
     <Compile Include="Assets\Script\GlobalScript\GlobalVar.cs" />

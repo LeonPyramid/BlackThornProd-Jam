@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class EasterEgg : MonoBehaviour
 {
@@ -9,10 +10,15 @@ public class EasterEgg : MonoBehaviour
     public bool lock2;
     public bool lock3;
     private float tempx;
+    public PlanetInfo planetInfo;
 
     public bool easter;
     void Start()
     {
+        if (!File.Exists(Path.Combine(Application.persistentDataPath, "Planet24.txt")))
+        {
+            Save(Path.Combine(Application.persistentDataPath, "Planet24.txt"));
+        }
         lock1 = false;
         lock2 = false;
         lock3 = false;
@@ -66,7 +72,17 @@ public class EasterEgg : MonoBehaviour
         if (this.transform.position.x == 431 && lock3)
         {
             easter = true;
-            SceneManager.LoadScene("Planet23");
+            SceneManager.LoadScene("Planet24");
         }
+    }
+    public void Save(string dataPath)
+    {
+        string jsonString = JsonUtility.ToJson(planetInfo);
+
+        using (StreamWriter streamWriter = File.CreateText(dataPath))
+        {
+            streamWriter.Write(jsonString);
+        }
+
     }
 }

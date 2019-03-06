@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Game Design/JeuFini/PlanetCareInc.apk
+D:/Game Design/JeuFini/PlanetCareInctest.apk
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/NavMap.unity
@@ -27,7 +27,7 @@ Assets/Scenes/Planet19.unity
 Assets/Scenes/Planet20.unity
 Assets/Scenes/Planet21.unity
 Assets/Scenes/Planet22.unity
-Assets/Scenes/Planet23.unity
+Assets/Scenes/Planet24.unity
 SceneListEnd?
 021a6341b210b301f8ac4aa87cd6f307 Assembly-CSharp.dll:.DialogList
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -147,6 +147,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+fd8947fc0638f00f13f69b31c56b0140 Assembly-CSharp.dll:.DialogSecretTrigger
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GotoMenu
 1c7291225c802d2df74ac31d2116bd4b Assembly-CSharp.dll:.CameraOnNavMap
 c72607e62a280d41c89ab63c8db4ea2a Assembly-CSharp.dll:.ActivateHalo
@@ -162,6 +163,7 @@ e21ffc698b0ad823f774297aeb69a34d Assembly-CSharp.dll:.LoadPages
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ToggleFullscreen
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 d629939825fdb023e17eb7f5f12dcf8d Assembly-CSharp.dll:.FinishedPlanet
+5a4f4e97a203dc2969b4d7eade659624 Assembly-CSharp.dll:.EasterEggPlanet
 a55cbdb17c63dcb2e1a108ce2b81719d Assembly-CSharp.dll:.PanelCredit
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
@@ -208,6 +210,7 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 f7e56e3a2d0381932af76b4e8288a3c2 Assembly-CSharp.dll:.MoveCamera
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+dc434e6caf86dac53603e0c9828d020f Assembly-CSharp.dll:.EasterEgg
 f53816a880005299ffbc3499e5e2f62a Assembly-CSharp.dll:.ChangeState
 1e313c11e6c418355a761869e3965ee1 Assembly-CSharp.dll:.CloudFlyer
 220d1d75fb26ba5e485cfe4b94e7eca3 Assembly-CSharp.dll:.CreateSavefile
@@ -223,6 +226,3 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 d785712e9003a299d969e63bc21a7a59 Assembly-CSharp.dll:.ResetMenu
-129562d937cb6f0f1da4a438821d4d9d Assembly-CSharp.dll:.EasterEgg
-fd8947fc0638f00f13f69b31c56b0140 Assembly-CSharp.dll:.DialogSecretTrigger
-5a4f4e97a203dc2969b4d7eade659624 Assembly-CSharp.dll:.EasterEggPlanet
